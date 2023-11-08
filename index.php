@@ -137,7 +137,7 @@
                         <!-- .cd-radial-slider-content -->
                 </li>
                 <li>
-                    <div class="svg-wrapper" title="Railway Clearing &amp; Forwarding"><svg viewbox="0 0 1400 800">
+                    <div class="svg-wrapper" title="Complete Supply Chain Solution "><svg viewbox="0 0 1400 800">
                             <title></title>
                             <defs>
                                 <clippath id="cd-image-3">
@@ -153,7 +153,7 @@
                         <div class="wrapper">
                             <div>
                                 <h1 title="Railway Clearing &amp; Forwarding">Railway Clearing &amp; Forwarding</h1>
-                                <a class="hvr-bounce-to-right read" href="about-us.php">Read More</a>
+                                
                             </div>
                         </div>
                     </div>
