@@ -433,7 +433,7 @@
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12" style="padding-left:0px;">
                     <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left:0px;">
-                        <form id="contact-form" method="post" action="http://www.bwcgroup.in/contact.php" role="form">
+                        <form id="contact-form" method="post" action="#" role="form">
 
                             <div class="messages"></div>
 
