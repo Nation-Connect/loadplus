@@ -81,8 +81,7 @@
                                 <li><a href="#about"><span data-hover="About">About</span></a></li>
                                 <li><a href="#services"><span data-hover="Our Services">Our
                                             Services</span></a></li>
-                                <!-- <li><a href="branches.php"><span data-hover="Branches">Branches</span></a></li> -->
-                                <!-- <li><a href="achievements.php"><span data-hover="Achievements">Achievements</span></a></li> -->
+                                
                                 <li><a href="#gallery"><span data-hover="Clients">Clients</span></a></li>
                                 <li><a href="#contact"><span data-hover="Contact">Contact</span></a></li>
                             </ul>
@@ -152,7 +151,7 @@
                     <div class="cd-radial-slider-content">
                         <div class="wrapper">
                             <div>
-                                <h1 title="Railway Clearing &amp; Forwarding"> Complete Supply Chain Solution </h1>
+                                <h1 title="Complete Supply Chain Solution"> Complete Supply Chain Solution </h1>
                                 
                             </div>
                         </div>
@@ -565,9 +564,7 @@
 
 
 
-            <!-- //contact -->
-
-            <!-- <div class="map-w3-agile"><iframe allowfullscreen="" frameborder="0" height="350" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.983672245835!2d77.56543991433608!3d13.036711190813154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17e111dad4dd%3A0xf944d0d41bc2fd5!2sBalaji+Warehousing+Company+Pvt.+Ltd!5e0!3m2!1sen!2sin!4v1528279224271" style="border:0" width="100%"></iframe></div> -->
+            
 
 				<footer>
             <div class="footer-w3layouts">
