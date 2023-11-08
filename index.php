@@ -152,7 +152,7 @@
                     <div class="cd-radial-slider-content">
                         <div class="wrapper">
                             <div>
-                                <h1 title="Railway Clearing &amp; Forwarding">Railway Clearing &amp; Forwarding</h1>
+                                <h1 title="Railway Clearing &amp; Forwarding"> Complete Supply Chain Solution </h1>
                                 
                             </div>
                         </div>
