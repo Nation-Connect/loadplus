@@ -4,20 +4,18 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> India&#39;s leading Warehousing and Logistics Company | Loadplus Private Limited </title>
-    <meta name='description'
-        content="Loadplus Private Limited: India's Premier Warehousing & Logistics Provider. Serving a diverse clientele, we lead the B2B logistics and Warehousing industry." />
-    <meta name="keywords"
-        content="Loadplus Private Limited, warehousing, logistics, B2B logistics, fleet management, transport, B2B transport" />
+    <meta name='description' content="Loadplus Private Limited: India's Premier Warehousing & Logistics Provider. Serving a diverse clientele, we lead the B2B logistics and Warehousing industry." />
+    <meta name="keywords" content="Loadplus Private Limited, warehousing, logistics, B2B logistics, fleet management, transport, B2B transport" />
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="application/x-javascript">
-    addEventListener("load", function() {
-        setTimeout(hideURLbar, 0);
-    }, false);
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-    function hideURLbar() {
-        window.scrollTo(0, 1);
-    }
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
     </script>
     <link href="css/bootstrap.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style1.css" media="all" rel="stylesheet" type="text/css" />
@@ -28,34 +26,33 @@
     <!-- font-awesome icons -->
     <link href="css/font-awesome.css" rel="stylesheet" /><!-- //font-awesome icons -->
     <!-- web-fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,500i,600,600i,700,700i,800"
-        rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet" />
     <link href="http://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700" rel="stylesheet" />
     <!-- //web-fonts -->
     <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <style>
-    .agileinfo-gallery-row>.container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .agileinfo-gallery-row>.container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    .agileinfo-gallery-row>.container>.w3gallery-grids.img__wrap {
-        flex: 0 0 25%;
-    }
+        .agileinfo-gallery-row>.container>.w3gallery-grids.img__wrap {
+            flex: 0 0 25%;
+        }
 
-    .agileinfo-gallery-row>.container>.w3gallery-grids.img__wrap .img__description {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 40px 10px !important;
-        line-height: 1.25 !important;
-    }
+        .agileinfo-gallery-row>.container>.w3gallery-grids.img__wrap .img__description {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 10px !important;
+            line-height: 1.25 !important;
+        }
 
-    .agileinfo-gallery-row>.container>.w3gallery-grids.img__wrap .img__description>span {
-        flex: 0 0 100%;
-    }
+        .agileinfo-gallery-row>.container>.w3gallery-grids.img__wrap .img__description>span {
+            flex: 0 0 100%;
+        }
     </style>
 </head>
 
@@ -65,12 +62,8 @@
         <div class="cd-radial-slider-wrapper">
             <div class="top_header">
                 <nav class="navbar navbar-default">
-                    <div class="navbar-header navbar-left"><button class="navbar-toggle collapsed"
-                            data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span
-                                class="sr-only">Toggle navigation</span></button>
-                        <div class="logo-section"><a href="index.php"><img alt="Loadplus Private Limited"
-                                    class="logo img-responsive" src="images/logo.jpeg"
-                                    title="Loadplus Private Limited" /></a> </div>
+                    <div class="navbar-header navbar-left"><button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button>
+                        <div class="logo-section"><a href="index.php"><img alt="Loadplus Private Limited" class="logo img-responsive" src="images/logo.jpeg" title="Loadplus Private Limited" /></a> </div>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -81,7 +74,7 @@
                                 <li><a href="#about"><span data-hover="About">About</span></a></li>
                                 <li><a href="#services"><span data-hover="Our Services">Our
                                             Services</span></a></li>
-                                
+
                                 <li><a href="#gallery"><span data-hover="Clients">Clients</span></a></li>
                                 <li><a href="#contact"><span data-hover="Contact">Contact</span></a></li>
                             </ul>
@@ -99,8 +92,7 @@
                                     <circle cx="110" cy="400" id="cd-circle-1" r="1364"></circle>
                                 </clippath>
                             </defs>
-                            <image clip-path="url(#cd-image-1)" height="800px" width="1400px"
-                                xlink:href="images/bigbanner.png"></image>
+                            <image clip-path="url(#cd-image-1)" height="800px" width="1400px" xlink:href="images/bigbanner.png"></image>
                         </svg></div>
                     <!-- .svg-wrapper -->
 
@@ -121,8 +113,7 @@
                                     <circle cx="1290" cy="400" id="cd-circle-2" r="60"></circle>
                                 </clippath>
                             </defs>
-                            <image clip-path="url(#cd-image-2)" height="800px" width="1400px"
-                                xlink:href="images/bigbanner1.png"></image>
+                            <image clip-path="url(#cd-image-2)" height="800px" width="1400px" xlink:href="images/bigbanner1.png"></image>
                         </svg></div>
                     <!-- .svg-wrapper -->
 
@@ -143,8 +134,7 @@
                                     <circle cx="110" cy="400" id="cd-circle-3" r="60"></circle>
                                 </clippath>
                             </defs>
-                            <image clip-path="url(#cd-image-3)" height="800px" width="1400px"
-                                xlink:href="images/bigbanner2.jpg"></image>
+                            <image clip-path="url(#cd-image-3)" height="800px" width="1400px" xlink:href="images/bigbanner2.jpg"></image>
                         </svg></div>
                     <!-- .svg-wrapper -->
 
@@ -152,7 +142,7 @@
                         <div class="wrapper">
                             <div>
                                 <h1 title="Complete Supply Chain Solution"> Complete Supply Chain Solution </h1>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -189,8 +179,7 @@
             </div>
 
             <div class="wthree-about">
-                <div class="col-md-5 wthree-ab-left"><img alt="Loadplus Private Limited" class="responsive"
-                        src="images/fulltruckload.jpg" title="Loadplus Private Limited " /></div>
+                <div class="col-md-5 wthree-ab-left"><img alt="Loadplus Private Limited" class="responsive" src="images/fulltruckload.jpg" title="Loadplus Private Limited " /></div>
 
                 <div class="col-md-7 wthree-ab-right">
                     <p>Loadplus Private Limited, founded on August 4, 2023, is your trusted logistics and warehousing
@@ -284,8 +273,7 @@
 
                 <div class="resp-tabs-container">
                     <div class="tab1">
-                        <div class="col-md-6 tab-info-img"><img alt="Warehousing" src="images/service/Warehouse.jpg"
-                                title="Warehousing" /></div>
+                        <div class="col-md-6 tab-info-img"><img alt="Warehousing" src="images/service/Warehouse.jpg" title="Warehousing" /></div>
 
                         <div class="col-md-6 tab-info">
                             <h4 title="Warehousing">Warehousing</h4>
@@ -299,8 +287,7 @@
                     </div>
 
                     <div class="tab2">
-                        <div class="col-md-6 tab-info-img"><img alt="Last Mile Delivery"
-                                src="images/service/lastmiledelivery.jpg" title="Last Mile Delivery" /></div>
+                        <div class="col-md-6 tab-info-img"><img alt="Last Mile Delivery" src="images/service/lastmiledelivery.jpg" title="Last Mile Delivery" /></div>
 
                         <div class="col-md-6 tab-info">
                             <h4 title="Last Mile Delivery">Last Mile Delivery</h4>
@@ -315,8 +302,7 @@
                     </div>
 
                     <div class="tab3">
-                        <div class="col-md-6 tab-info-img"><img alt="Full Truck Load (FTL)"
-                                src="images/service/fulltruckload.png" title="Full Truck Load (FTL)" /></div>
+                        <div class="col-md-6 tab-info-img"><img alt="Full Truck Load (FTL)" src="images/service/fulltruckload.png" title="Full Truck Load (FTL)" /></div>
                         <div class="col-md-6 tab-info">
                             <h4 title="Full Truck Load (FTL)">Full Truck Load (FTL)</h4>
 
@@ -330,9 +316,7 @@
                     </div>
 
                     <div class="tab4">
-                        <div class="col-md-6 tab-info-img"><img alt="Complete Supply Chain Solutions Under One Roof"
-                                src="images/service/completesupplychain.png"
-                                title="Complete Supply Chain Solutions Under One Roof" /></div>
+                        <div class="col-md-6 tab-info-img"><img alt="Complete Supply Chain Solutions Under One Roof" src="images/service/completesupplychain.png" title="Complete Supply Chain Solutions Under One Roof" /></div>
 
                         <div class="col-md-6 tab-info">
                             <h4 title="Complete Supply Chain Solutions Under One Roof">Complete Supply Chain Solutions
@@ -368,38 +352,28 @@
             <div class="container">
 
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="RSPL Group"
-                        class="imghvr-hinge-right figure img__img projects-box" src="images/customer/rspl.png"
-                        title="RSPL Group" />
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="RSPL Group" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/rspl.png" title="RSPL Group" />
                     <p class="img__description" style="padding: 12px 0 0;;line-height:1">
                         <span style="display: block; margin-bottom: 16px">RSPL GROUP</span>
 
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Big Basket"
-                        class="imghvr-hinge-right figure img__img projects-box" src="images/customer/bigbasket.png"
-                        title="Big Basket" />
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Big Basket" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/bigbasket.png" title="Big Basket" />
                     <p class="img__description">
                         <span style="display: block; margin-bottom: 16px">Big Basket</span>
 
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Delhivery"
-                        class="imghvr-hinge-right figure img__img projects-box" src="images/customer/delhivery.png"
-                        title="Delhivery" />
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Delhivery" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/delhivery.png" title="Delhivery" />
                     <p class="img__description">
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Flipkart"
-                        class="imghvr-hinge-right figure img__img projects-box" src="images/customer/flipkart.png"
-                        title="Flipkart" />
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Flipkart" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/flipkart.png" title="Flipkart" />
                     <p class="img__description">
 
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Amazon"
-                        class="imghvr-hinge-right figure img__img projects-box" src="images/customer/amazon.png"
-                        title="Amazon" />
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Amazon" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/amazon.png" title="Amazon" />
                     <p class="img__description">
 
                 </div>
@@ -432,8 +406,8 @@
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12" style="padding-left:0px;">
                     <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left:0px;">
-                        <form id="contact-form" method="post" action="#" role="form">
-
+                        <form id="contact-form" class="contact-form" action="#" role="form">
+                            <input type="hidden" name="send-contact-mail" />
                             <div class="messages"></div>
 
                             <div class="controls">
@@ -441,21 +415,15 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="form_name"
-                                                Style="font-weight: 500; margin-bottom: 8px">Firstname *</label>
-                                            <input id="form_name" type="text" name="name" class="form-control"
-                                                placeholder="Please enter your firstname *" required="required"
-                                                data-error="Firstname is required.">
+                                            <label for="form_name" Style="font-weight: 500; margin-bottom: 8px">Firstname *</label>
+                                            <input id="form_name" type="text" name="fname" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="form_lastname"
-                                                Style="font-weight: 500; margin-bottom: 8px">Lastname *</label>
-                                            <input id="form_lastname" type="text" name="surname" class="form-control"
-                                                placeholder="Please enter your lastname *" required="required"
-                                                data-error="Lastname is required.">
+                                            <label for="form_lastname" Style="font-weight: 500; margin-bottom: 8px">Lastname *</label>
+                                            <input id="form_lastname" type="text" name="lname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -465,17 +433,14 @@
                                         <div class="form-group">
                                             <label for="form_email" Style="font-weight: 500; margin-bottom: 8px">Email
                                                 *</label>
-                                            <input id="form_email" type="email" name="email" class="form-control"
-                                                placeholder="Please enter your email *" required="required"
-                                                data-error="Valid email is required.">
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="form_phone">Phone</label>
-                                            <input id="form_phone" type="tel" name="phone" class="form-control"
-                                                placeholder="Please enter your phone">
+                                            <input id="form_phone" type="tel" name="mobile" class="form-control" placeholder="Please enter your phone">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -483,22 +448,23 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="form_message"
-                                                Style="font-weight: 500; margin-bottom: 8px">Message *</label>
-                                            <textarea id="form_message" name="message" class="form-control"
-                                                placeholder="Message for me *" rows="4" required="required"
-                                                data-error="Please,leave us a message."></textarea>
+                                            <label for="form_message" Style="font-weight: 500; margin-bottom: 8px">Message *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <input type="submit" class="btn btn-success btn-send"
-                                            style="background: #e21837 !important; border: 1px solid #e21837 !important "
-                                            value="Send message">
+                                        <input type="submit" name="submit" class="btn btn-success btn-send" style="background: #e21837 !important; border: 1px solid #e21837 !important " value="Send message">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
+                                        <div id="form-message-success" style="display:none;font-size:20px;margin-top:10px;" class="mb-4 text-center text-success">
+                                            Your message was sent, Thank you!
+                                        </div>
+                                        <div id="form-message-danger" style="display:none;font-size:20px;margin-top:10px;" class="mb-4 text-center text-danger">
+                                            Something went wrong!, please try again.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -564,19 +530,19 @@
 
 
 
-            
 
-				<footer>
-            <div class="footer-w3layouts">
-                <div class="copyright-wthree">
-                    <p>&copy; <?php echo date("Y"); ?> Loadplus Private Limited . All Rights Reserved</p>
 
-                    <div class="wthree-icon footer"></div>
+            <footer>
+                <div class="footer-w3layouts">
+                    <div class="copyright-wthree">
+                        <p>&copy; <?php echo date("Y"); ?> Loadplus Private Limited . All Rights Reserved</p>
 
-                    <div class="clearfix"></div>
+                        <div class="wthree-icon footer"></div>
+
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
-            </div>
-			</footer>
+            </footer>
             <!-- //Footer -->
             <!-- js -->
             <script src="js/jquery-2.2.3.min.js"></script><!-- //js -->
@@ -584,52 +550,52 @@
             <script type="text/javascript" src="js/move-top.js"></script>
             <script type="text/javascript" src="js/easing.js"></script>
             <script type="text/javascript">
-            jQuery(document).ready(function($) {
-                $(".scroll").click(function(event) {
-                    event.preventDefault();
+                jQuery(document).ready(function($) {
+                    $(".scroll").click(function(event) {
+                        event.preventDefault();
 
-                    $('html,body').animate({
-                        scrollTop: $(this.hash).offset().top
-                    }, 1000);
+                        $('html,body').animate({
+                            scrollTop: $(this.hash).offset().top
+                        }, 1000);
+                    });
                 });
-            });
             </script><!-- //end-smooth-scrolling -->
             <!-- script for responsive tabs -->
             <script src="js/easy-responsive-tabs.js"></script>
             <script>
-            $(document).ready(function() {
-                $('#horizontalTab').easyResponsiveTabs({
-                    type: 'default', //Types: default, vertical, accordion           
-                    width: 'auto', //auto or any width like 600px
-                    fit: true, // 100% fit in a container
-                    closed: 'accordion', // Start closed if in accordion view
-                    activate: function(event) { // Callback function if tab is switched
-                        var $tab = $(this);
-                        var $info = $('#tabInfo');
-                        var $name = $('span', $info);
-                        $name.text($tab.text());
-                        $info.show();
-                    }
+                $(document).ready(function() {
+                    $('#horizontalTab').easyResponsiveTabs({
+                        type: 'default', //Types: default, vertical, accordion           
+                        width: 'auto', //auto or any width like 600px
+                        fit: true, // 100% fit in a container
+                        closed: 'accordion', // Start closed if in accordion view
+                        activate: function(event) { // Callback function if tab is switched
+                            var $tab = $(this);
+                            var $info = $('#tabInfo');
+                            var $name = $('span', $info);
+                            $name.text($tab.text());
+                            $info.show();
+                        }
+                    });
+                    $('#verticalTab').easyResponsiveTabs({
+                        type: 'vertical',
+                        width: 'auto',
+                        fit: true
+                    });
                 });
-                $('#verticalTab').easyResponsiveTabs({
-                    type: 'vertical',
-                    width: 'auto',
-                    fit: true
-                });
-            });
             </script><!-- stats -->
             <script src="js/jquery.waypoints.min.js"></script>
             <script src="js/jquery.countup.js"></script>
             <script>
-            $('.counter').countUp();
+                $('.counter').countUp();
             </script><!-- //stats -->
             <script type="text/javascript" src="js/simple-lightbox.min.js"></script>
             <script>
-            $(function() {
-                var gallery = $('.agileinfo-gallery-row a').simpleLightbox({
-                    navText: ['&lsaquo;', '&rsaquo;']
+                $(function() {
+                    var gallery = $('.agileinfo-gallery-row a').simpleLightbox({
+                        navText: ['&lsaquo;', '&rsaquo;']
+                    });
                 });
-            });
             </script><!-- script for responsive tabs -->
             <!-- search jQuery -->
             <script src="js/search.js"></script><!-- //search jQuery -->
@@ -639,43 +605,65 @@
             <!-- carousel -->
             <script src="js/owl.carousel.js"></script>
             <script>
-            $(document).ready(function() {
-                $("#owl-demo").owlCarousel({
-                    items: 3,
-                    itemsDesktop: [768, 2],
-                    itemsDesktopSmall: [414, 1],
-                    lazyLoad: true,
-                    autoPlay: true,
-                    navigation: true,
+                $(document).ready(function() {
+                    $("#owl-demo").owlCarousel({
+                        items: 3,
+                        itemsDesktop: [768, 2],
+                        itemsDesktopSmall: [414, 1],
+                        lazyLoad: true,
+                        autoPlay: true,
+                        navigation: true,
 
-                    navigationText: false,
-                    pagination: true,
+                        navigationText: false,
+                        pagination: true,
+
+                    });
 
                 });
-
-            });
             </script><!-- //carousel -->
             <script type="text/javascript">
-            $(document).ready(function() {
-                /*
-                var defaults = {
-                	containerID: 'toTop', // fading element id
-                	containerHoverID: 'toTopHover', // fading element hover id
-                	scrollSpeed: 1200,
-                	easingType: 'linear' 
-                };
-                */
+                $(document).ready(function() {
+                    /*
+                    var defaults = {
+                    	containerID: 'toTop', // fading element id
+                    	containerHoverID: 'toTopHover', // fading element hover id
+                    	scrollSpeed: 1200,
+                    	easingType: 'linear' 
+                    };
+                    */
 
-                $().UItoTop({
-                    easingType: 'easeOutQuart'
+                    $().UItoTop({
+                        easingType: 'easeOutQuart'
+                    });
+
                 });
-
-            });
             </script><!-- //smooth-scrolling-of-move-up -->
             <!-- Bootstrap core JavaScript
     ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
             <script src="js/bootstrap.js"></script>
+
+            <script>
+                $("#contact-form").submit(function(event) {
+                    event.preventDefault();
+                    $(".submit-btn").html("<i class=`fa fa-circle-notch fa-spin`></i> Please wait...");
+                    $(".submit-btn").prop('disabled', true);
+                    $('#form-message-success').hide();
+                    $('#form-message-danger').hide();
+                    var formValues = $(this).serialize();
+                    $.post("mail.php", formValues, function(data) {
+                        $(".submit-btn").html("Submit");
+                        $(".submit-btn").prop('disabled', false);
+                        if (data) {
+                            $('#form-message-success').show().delay(5000).fadeOut(500);
+                            $("#contactForm")[0].reset();
+                        } else {
+                            $('#form-message-danger').show().delay(5000).fadeOut(500);
+                        }
+                    });
+                });
+            </script>
+
 </body>
 
 </html>
