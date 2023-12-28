@@ -33,7 +33,7 @@
         //Recipients
         $mail->setFrom('operations@loadplus.in', 'Loadplus');
         $mail->addAddress("sugandhkumar9@gmail.com", "Loadplus");     // Add a recipient
-        $mail->addReplyTo($email, $name);
+        $mail->addReplyTo($email, $fname);
     
         // Attachments
         //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
