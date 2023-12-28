@@ -651,7 +651,7 @@
                     $('#form-message-success').hide();
                     $('#form-message-danger').hide();
                     var formValues = $(this).serialize();
-                    $.post("mail.php", formValues, function(data) {
+                    $.post("mail-service.php", formValues, function(data) {
                         $(".submit-btn").html("Submit");
                         $(".submit-btn").prop('disabled', false);
                         if (data) {
