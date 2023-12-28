@@ -23,7 +23,7 @@
         //Server settings
         $mail->SMTPDebug = 1;                      // Enable verbose debug output
         $mail->isSMTP();                                            // Send using SMTP
-        $mail->Host       = 'smpt.gmail.com';                    // Set the SMTP server to send through
+        $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = 'operations@loadplus.in';                     // SMTP username
         $mail->Password   = 'Loadplus@2023';                               // SMTP password
