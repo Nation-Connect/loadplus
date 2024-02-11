@@ -219,7 +219,7 @@
         <div class="container">
             <div class="inner_w3l_agile_grids">
                 <div class="col-md-3 w3layouts_stats_left w3_counter_grid">
-                    <p class="counter">50</p>
+                    <p class="counter">58</p>+
 
                     <h3>Clients</h3>
                 </div>
