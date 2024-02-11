@@ -34,6 +34,7 @@
             var nums = [num];
             var isComma = /[0-9]+,[0-9]+/.test(num);
             num = num.replace(/,/g, '');
+            num = num.replace(/\+/g, '');
             var isInt = /^[0-9]+$/.test(num);
             var isFloat = /^[0-9]+\.[0-9]+$/.test(num);
             var decimalPlaces = isFloat ? (num.split('.')[1] || []).length : 0;

@@ -219,27 +219,27 @@
         <div class="container">
             <div class="inner_w3l_agile_grids">
                 <div class="col-md-3 w3layouts_stats_left w3_counter_grid">
-                    <p class="counter">58</p>+
+                    <p class="counter">58+</p>
 
                     <h3>Clients</h3>
                 </div>
 
                 <div class="col-md-3 w3layouts_stats_left w3_counter_grid1">
-                    <p class="counter">1</p>
+                    <p class="counter">25+</p>
 
                     <h3>Branches</h3>
                 </div>
 
                 <div class="col-md-3 w3layouts_stats_left w3_counter_grid2">
-                    <p class="counter">10000</p>
+                    <p class="counter">600+</p>
 
                     <h3>Fleet Strength</h3>
                 </div>
 
                 <div class="col-md-3 w3layouts_stats_left w3_counter_grid3">
-                    <p class="counter">5,00,000</p>
+                    <p class="counter">5,34,501+</p>
 
-                    <h3>Sqft Operations</h3>
+                    <h3>Warehouse</h3>
                 </div>
 
                 <div class="clearfix"></div>
