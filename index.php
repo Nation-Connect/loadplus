@@ -63,7 +63,7 @@
             <div class="top_header">
                 <nav class="navbar navbar-default">
                     <div class="navbar-header navbar-left"><button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button>
-                        <div class="logo-section"><a href="index.php"><img alt="Loadplus Private Limited" class="logo img-responsive" src="images/logo.jpeg" title="Loadplus Private Limited" /></a> </div>
+                        <div class="logo-section"><a href="index.php"><img alt="Loadplus Private Limited" class="logo img-responsive" src="images/logo1.jpeg" title="Loadplus Private Limited" /></a> </div>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
 
