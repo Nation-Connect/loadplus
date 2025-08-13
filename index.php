@@ -19,17 +19,19 @@
     </script>
     <!-- <link href="css/bootstrap.css" media="all" rel="stylesheet" type="text/css" /> -->
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/slider.css" media="all" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/slider.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/owl.carousel.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/easy-responsive-tabs1.css" rel="stylesheet" type="text/css" />
-    <link href="css/simplelightbox.min.css" rel="stylesheet" type="text/css" /><!-- //Custom Theme files -->
+    <link href="css/simplelightbox.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- //Custom Theme files -->
     <!-- font-awesome icons -->
-    <link href="css/font-awesome.css" rel="stylesheet" /><!-- //font-awesome icons -->
+    <!-- <link href="css/font-awesome.css" rel="stylesheet" /> -->
+    <!-- //font-awesome icons -->
     <!-- web-fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet" />
-    <link href="http://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700" rel="stylesheet" />
+    <!-- <link href="http://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700" rel="stylesheet" /> -->
     <!-- //web-fonts -->
-    <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> -->
 
 
     <!-- Bootstrap -->
@@ -68,7 +70,7 @@
     <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <img src="https://loadplus.in/images/logo1.jpeg" alt="LoadPlus logo">
+        <img src="./images/logo1.jpeg" alt="LoadPlus logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
         <span class="navbar-toggler-icon"></span>
