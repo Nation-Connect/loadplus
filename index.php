@@ -681,13 +681,6 @@
                 $('.counter').countUp();
             </script><!-- //stats -->
             <script type="text/javascript" src="js/simple-lightbox.min.js"></script>
-            <script>
-                $(function() {
-                    var gallery = $('.agileinfo-gallery-row a').simpleLightbox({
-                        navText: ['&lsaquo;', '&rsaquo;']
-                    });
-                });
-            </script><!-- script for responsive tabs -->
             <!-- search jQuery -->
             <script src="js/search.js"></script><!-- //search jQuery -->
             <script src="js/snap.svg-min.js"></script>
@@ -712,23 +705,6 @@
                 });
             </script> -->
             <!-- //carousel -->
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    /*
-                    var defaults = {
-                    	containerID: 'toTop', // fading element id
-                    	containerHoverID: 'toTopHover', // fading element hover id
-                    	scrollSpeed: 1200,
-                    	easingType: 'linear' 
-                    };
-                    */
-
-                    $().UItoTop({
-                        easingType: 'easeOutQuart'
-                    });
-
-                });
-            </script><!-- //smooth-scrolling-of-move-up -->
             <!-- Bootstrap core JavaScript
     ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
