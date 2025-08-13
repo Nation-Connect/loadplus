@@ -32,7 +32,7 @@
     
         //Recipients
         $mail->setFrom('operations@loadplus.in', 'Loadplus');
-        $mail->addAddress("contact@loadplus.in", "Loadplus");     // Add a recipient
+        $mail->addAddress("sugandhkumar9@gmail.com", "Loadplus");     // Add a recipient
         $mail->addReplyTo($email, $fname);
     
         // Attachments
