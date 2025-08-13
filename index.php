@@ -627,7 +627,7 @@
   <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
     <div class="d-flex align-items-center gap-2">
       <img src="images/favicon.png" alt="LoadPlus" style="height:28px">
-      <span>&copy; <span id="year"></span> LoadPlus Logistics. All rights reserved.</span>
+      <span>&copy; <span id="year"></span> Loadplus Private Limited. All rights reserved.</span>
     </div>
     <!-- <div class="small">GST/IEC/CHA details available on request • ISO-compliant SOPs</div> -->
   </div>
@@ -650,17 +650,7 @@
             <!-- start-smooth-scrolling -->
             <script type="text/javascript" src="js/move-top.js"></script>
             <script type="text/javascript" src="js/easing.js"></script>
-            <script type="text/javascript">
-                jQuery(document).ready(function($) {
-                    $(".scroll").click(function(event) {
-                        event.preventDefault();
-
-                        $('html,body').animate({
-                            scrollTop: $(this.hash).offset().top
-                        }, 1000);
-                    });
-                });
-            </script><!-- //end-smooth-scrolling -->
+           
             <!-- script for responsive tabs -->
             <script src="js/easy-responsive-tabs.js"></script>
             <script>
