@@ -548,67 +548,6 @@
   </div>
 </section>
 
-
-
-
-
-    <div class="gallery" id="gallery">
-        <div class="container">
-            <div class="agileits-title">
-                <div class="agileits-title-left">
-                    <h3 title="Our Esteemed Client">Our Esteemed Client</h3>
-                </div>
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-        <div class="agileinfo-gallery-row">
-            <div class="container">
-
-
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="RSPL Group" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/rspl.png" title="RSPL Group" />
-                    <p class="img__description" style="padding: 12px 0 0;;line-height:1">
-                        <span style="display: block; margin-bottom: 16px">RSPL GROUP</span>
-
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Big Basket" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/bigbasket.png" title="Big Basket" />
-                    <p class="img__description">
-                        <span style="display: block; margin-bottom: 16px">Big Basket</span>
-
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Delhivery" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/delhivery.png" title="Delhivery" />
-                    <p class="img__description">
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Flipkart" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/flipkart.png" title="Flipkart" />
-                    <p class="img__description">
-
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 w3gallery-grids img__wrap"><img alt="Amazon" class="imghvr-hinge-right figure img__img projects-box" src="images/customer/amazon.png" title="Amazon" />
-                    <p class="img__description">
-
-                </div>
-
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- about -->
         <div class="about" id="contact">
             <div class="container">
