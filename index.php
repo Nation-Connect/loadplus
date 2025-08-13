@@ -350,6 +350,93 @@
     </div><!-- /tab-content -->
   </div>
 </section>
+
+<!-- ABOUT (White, blue headings, yellow highlights) -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded-14 shadow"
+             src="https://images.unsplash.com/photo-1586521995568-39a1b60d6c2a?q=80&w=1600&auto=format&fit=crop"
+             alt="LoadPlus team managing warehousing and export-import operations">
+      </div>
+
+      <div class="col-lg-6">
+        <h2 class="section-title mb-3">
+          About <span class="highlight">LoadPlus</span>
+        </h2>
+
+        <p class="mb-3">
+          <strong>Loadplus Private Limited</strong> (founded <strong>August 4, 2023</strong>) is a
+          tech-enabled logistics partner based in <strong>East Delhi</strong> with a PAN-India network.
+          We simplify your supply chain end-to-end—covering <strong>Warehousing & Fulfilment</strong>,
+          <strong>Full Truck Load (FTL)</strong>, and <strong>Global Trade / Import–Export</strong>.
+        </p>
+
+        <div class="row g-3 mb-3">
+          <div class="col-12">
+            <div class="d-flex align-items-start gap-2">
+              <i class="bi bi-box-seam fs-5 icon-teal"></i>
+              <div>
+                <strong>Warehousing & Fulfilment:</strong>
+                Bonded/non-bonded storage, inventory control, pick-pack, kitting and VAS with WMS visibility.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="d-flex align-items-start gap-2">
+              <i class="bi bi-truck fs-5 icon-yellow"></i>
+              <div>
+                <strong>Transportation (FTL):</strong>
+                Reliable primary movement with route planning, GPS tracking and SLA governance.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="d-flex align-items-start gap-2">
+              <i class="bi bi-globe2 fs-5 icon-pink"></i>
+              <div>
+                <strong>Import–Export & Customs:</strong>
+                CHA support and documentation, customs clearance (import/export), <em>ocean & air freight</em>,
+                Incoterms guidance, duties/compliance, and door-to-door multi-modal delivery.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="list-unstyled mb-3">
+          <li class="mb-2"><i class="bi bi-geo-alt me-2 icon-teal"></i><strong>Coverage:</strong> PAN-India with
+            facilities near major ports, ICDs & metros</li>
+          <li class="mb-2"><i class="bi bi-cpu me-2 icon-yellow"></i><strong>Technology:</strong> WMS/TMS, barcode/RFID,
+            EDI/API integrations & real-time dashboards</li>
+          <li class="mb-2"><i class="bi bi-award me-2 icon-pink"></i><strong>Quality:</strong> SOP-driven, audit-ready,
+            with a focus on reliability and on-time performance</li>
+        </ul>
+
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span class="badge bg-light text-dark border">
+            <i class="bi bi-calendar-event me-1 icon-teal"></i> Founded 2023
+          </span>
+          <span class="badge bg-light text-dark border">
+            <i class="bi bi-person-badge me-1 icon-yellow"></i> Led by Bhuvneshver Khobre
+          </span>
+          <span class="badge bg-light text-dark border">
+            <i class="bi bi-building me-1 icon-pink"></i> East Delhi HQ
+          </span>
+        </div>
+
+        <p class="mb-3">
+          Our pledge is simple: <strong>seamless, integrated, and stress-free logistics</strong>.
+          From factory gate to global markets—and all the warehousing in between—LoadPlus keeps your cargo
+          moving efficiently, compliantly, and on schedule.
+        </p>
+
+        <a id="quote" href="#contact" class="btn btn-teal">Request a Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- banner -->
 
     <!-- //banner -->
