@@ -17,8 +17,8 @@
             window.scrollTo(0, 1);
         }
     </script>
-    <!-- <link href="css/bootstrap.css" media="all" rel="stylesheet" type="text/css" /> -->
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style1.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/slider.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/owl.carousel.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/easy-responsive-tabs1.css" rel="stylesheet" type="text/css" />
@@ -30,13 +30,6 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700" rel="stylesheet" />
     <!-- //web-fonts -->
     <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-
-
-    <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
     <style>
         .agileinfo-gallery-row>.container {
             display: flex;
@@ -64,77 +57,108 @@
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <img src="https://loadplus.in/images/logo1.jpeg" alt="LoadPlus logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navMain" class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            <li class="nav-item ms-lg-3"><a class="btn btn-teal" href="#quote">Get a Quote</a></li>
-        </ul>
-        </div>
-    </div>
-    </nav>
-
-    <!-- HERO (Teal → Deep Teal) with SLIDER -->
-    <header class="hero py-5">
-    <div class="container position-relative">
-        <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-            <span class="badge bg-light text-dark mb-3 fw-semibold">Warehousing • Import/Export • Transportation</span>
-            <h1 class="display-5 fw-bold">Reliable <span class="highlight">Warehousing</span> & Global Trade Logistics</h1>
-            <p class="lead mt-3">Bonded storage, international freight, customs assistance, and last-mile delivery—streamlined under one roof.</p>
-            <div class="d-flex flex-wrap gap-2 mt-3">
-            <a href="#services" class="btn btn-yellow btn-lg">Explore Services</a>
-            <a href="#contact" class="btn btn-outline-light btn-lg">Talk to Sales</a>
-            </div>
-            <div class="mt-3 small opacity-75">PAN-India presence • Registered at major ports & ICDs</div>
-        </div>
-
-        <div class="col-lg-6">
-            <div id="heroCarousel" class="carousel slide hero-carousel rounded-14 shadow overflow-hidden"
-                data-bs-ride="carousel" data-bs-interval="4500" data-bs-pause="false" data-bs-touch="true" aria-label="Hero image slider">
-            <!-- Dots -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <!-- Slides -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1600&auto=format&fit=crop" class="d-block w-100" alt="Modern warehouse">
-                </div>
-                <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1600&auto=format&fit=crop" class="d-block w-100" alt="Containers at port">
-                </div>
-                <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1586521995568-39a1b60d6c2a?q=80&w=1600&auto=format&fit=crop" class="d-block w-100" alt="Logistics operations">
-                </div>
-            </div>
-            <!-- Arrows -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous slide">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next slide">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-            </div>
-        </div>
-        </div>
-    </div>
-    </header>
     <!-- banner -->
+    <div class="banner" id="home">
+        <div class="cd-radial-slider-wrapper">
+            <div class="top_header">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header navbar-left"><button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button>
+                        <div class="logo-section"><a href="index.php"><img alt="Loadplus Private Limited" class="logo img-responsive" src="images/logo1.jpeg" title="Loadplus Private Limited" /></a> </div>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
 
+                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                        <nav class="link-effect-2" id="link-effect-2">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.php"><span data-hover="Home">Home</span></a></li>
+                                <li><a href="#about"><span data-hover="About">About</span></a></li>
+                                <li><a href="#services"><span data-hover="Our Services">Our
+                                            Services</span></a></li>
+
+                                <li><a href="#gallery"><span data-hover="Clients">Clients</span></a></li>
+                                <li><a href="#contact"><span data-hover="Contact">Contact</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
+            </div>
+
+            <ul class="cd-radial-slider" data-centerx1="110" data-centerx2="1290" data-radius1="60" data-radius2="1364">
+                <li class="visible" title="Full Truck Load">
+                    <div class="svg-wrapper" title="Full Truck Load"><svg viewbox="0 0 1400 800">
+                            <title></title>
+                            <defs>
+                                <clippath id="cd-image-1">
+                                    <circle cx="110" cy="400" id="cd-circle-1" r="1364"></circle>
+                                </clippath>
+                            </defs>
+                            <image clip-path="url(#cd-image-1)" height="800px" width="1400px" xlink:href="images/bigbanner.png"></image>
+                        </svg></div>
+                    <!-- .svg-wrapper -->
+
+                    <div class="cd-radial-slider-content">
+                        <div class="wrapper">
+                            <div>
+                                <h1 title="Full Truck Load">Full Truck Load</h1>
+
+                            </div>
+                        </div>
+                        <!-- .cd-radial-slider-content -->
+                </li>
+                <li class="next-slide" title="Quality Designed Warehouses">
+                    <div class="svg-wrapper"><svg viewbox="0 0 1400 800">
+                            <title></title>
+                            <defs>
+                                <clippath id="cd-image-2">
+                                    <circle cx="1290" cy="400" id="cd-circle-2" r="60"></circle>
+                                </clippath>
+                            </defs>
+                            <image clip-path="url(#cd-image-2)" height="800px" width="1400px" xlink:href="images/bigbanner1.png"></image>
+                        </svg></div>
+                    <!-- .svg-wrapper -->
+
+                    <div class="cd-radial-slider-content">
+                        <div class="wrapper">
+                            <div>
+                                <h1 title="Quality Designed Warehouses">Quality Designed Warehouses</h1>
+
+                            </div>
+                        </div>
+                        <!-- .cd-radial-slider-content -->
+                </li>
+                <li>
+                    <div class="svg-wrapper" title="Complete Supply Chain Solution "><svg viewbox="0 0 1400 800">
+                            <title></title>
+                            <defs>
+                                <clippath id="cd-image-3">
+                                    <circle cx="110" cy="400" id="cd-circle-3" r="60"></circle>
+                                </clippath>
+                            </defs>
+                            <image clip-path="url(#cd-image-3)" height="800px" width="1400px" xlink:href="images/bigbanner2.jpg"></image>
+                        </svg></div>
+                    <!-- .svg-wrapper -->
+
+                    <div class="cd-radial-slider-content">
+                        <div class="wrapper">
+                            <div>
+                                <h1 title="Complete Supply Chain Solution"> Complete Supply Chain Solution </h1>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .cd-radial-slider-content -->
+                </li>
+            </ul>
+            <!-- .cd-radial-slider -->
+
+            <ul class="cd-radial-slider-navigation">
+                <li><a class="next" href="#0">Next</a></li>
+                <li><a class="prev" href="#0">Prev</a></li>
+            </ul>
+            <!-- .cd-radial-slider-navigation -->
+        </div>
+        <!-- .cd-radial-slider-wrapper -->
+    </div>
     <!-- //banner -->
     <!-- Modal1 -->
     <!-- //Modal1 -->
@@ -617,7 +641,7 @@
             <!-- Bootstrap core JavaScript
     ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
-            <!-- <script src="js/bootstrap.js"></script> -->
+            <script src="js/bootstrap.js"></script>
 
             <script>
                 $("#contact-form").submit(function(event) {
@@ -639,30 +663,6 @@
                     });
                 });
             </script>
-
-
-
-
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  // year in footer
-  document.getElementById('year').textContent = new Date().getFullYear();
-
-  // Ensure autoplay keeps cycling even after manual swipe/click
-  const heroCarousel = document.querySelector('#heroCarousel');
-  if (heroCarousel) {
-    const carousel = new bootstrap.Carousel(heroCarousel, {
-      interval: 4500,
-      ride: 'carousel',
-      pause: false,
-      touch: true,
-      keyboard: true,
-      wrap: true
-    });
-  }
-</script>
 
 </body>
 
