@@ -193,6 +193,15 @@ body {
     box-shadow: 0 6px 14px rgba(35, 141, 150, .18);
 }
 
+/* Consistent service image size */
+#services img {
+  width: 100%;
+  height: 280px; /* Adjust as needed for your design */
+  object-fit: cover; /* Ensures the image fills area without distortion */
+  border-radius: 14px; /* Matches your rounded-14 style */
+}
+
+
 .icon-badge {
     width: 46px;
     height: 46px;
@@ -262,4 +271,9 @@ footer a:hover {
         height: 48px;
         /* slightly smaller on very small screens */
     }
+}
+@media (max-width: 768px) {
+  #services img {
+    height: 200px;
+  }
 }
