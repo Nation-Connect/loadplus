@@ -548,6 +548,80 @@
   </div>
 </section>
 
+<!-- CONTACT (Solid pink, white text, yellow CTA) -->
+<section id="contact" class="contact py-5">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Contact Info -->
+      <div class="col-lg-6">
+        <h2 class="section-title mb-3 text-white">Get in Touch</h2>
+        <p class="mb-4">Tell us about your cargo, timelines, and any special handling. Our team will respond with a tailored plan.</p>
+        <ul class="list-unstyled text-white">
+          <li class="mb-2"><i class="bi bi-telephone me-2"></i> +91-00000-00000</li>
+          <li class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@loadplus.in" class="text-white">contact@loadplus.in</a></li>
+          <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> D-17/675, Second Floor, Gali No. 4, Ganesh Nagar II, Shakarpur, East Delhi, New Delhi – 110092, India</li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <div class="card border-0 shadow">
+          <div class="card-body">
+            <form id="contact-form" class="contact-form" action="#" role="form">
+            <input type="hidden" name="send-contact-mail" />
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Name</label>
+                  <input id="form_name" type="text" name="fname" class="form-control" placeholder="Your name" required>
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="you@company.com" required>
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Phone</label>
+                  <input id="form_phone" type="tel" name="mobile" class="form-control" placeholder="+91…" required>
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Service Needed</label>
+                  <select class="form-select" name="service" required>
+                    <option>Warehousing</option>
+                    <option>Import/Export</option>
+                    <option>Transportation</option>
+                    <option>Full Supply Chain</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Message</label>
+                  <textarea rows="4" id="form_message" name="message" class="form-control" placeholder="Cargo volume, lanes, special needs…"></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" name="submit" class="btn btn-yellow w-100">Send Enquiry</button>
+                </div>
+              </div>
+              <div class="row">
+                    <div class="col-md-12">
+                        <div id="form-message-success" style="display:none;font-size:20px;margin-top:10px;" class="mb-4 text-center text-success">
+                            Your message was sent, Thank you!
+                        </div>
+                        <div id="form-message-danger" style="display:none;font-size:20px;margin-top:10px;" class="mb-4 text-center text-danger">
+                            Something went wrong!, please try again.
+                        </div>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+        <p class="small mt-2 mb-0 text-white">By submitting, you agree to our terms and privacy policy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
         <!-- about -->
         <div class="about" id="contact">
             <div class="container">

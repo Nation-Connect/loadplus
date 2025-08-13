@@ -211,10 +211,47 @@
     .gallery{ background: var(--tint-teal); }
     .gallery img{ border-radius:12px; }
 
-    /* Contact (solid pink background, white text, yellow buttons) */
-    .contact{ background: var(--c-pink); color: var(--white); }
-    .contact .form-control, .contact .form-select{ background:rgba(255,255,255,.95); border:none; }
-    .contact .form-control:focus, .contact .form-select:focus{ box-shadow: 0 0 0 0.25rem rgba(255,255,255,.3); }
+    /* CONTACT — on-brand teal gradient */
+.contact{
+  background: linear-gradient(160deg, var(--c-teal) 0%, var(--c-deepteal) 70%);
+  color: var(--white);
+}
+
+/* Card + form polish on teal background */
+.contact .card{
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 16px 36px rgba(14,43,56,.18);
+}
+
+.contact .form-control,
+.contact .form-select{
+  background: rgba(255,255,255,.96);
+  border: 1px solid rgba(0,0,0,.06);
+}
+
+.contact .form-control::placeholder{ color:#6a8896; }
+
+.contact .form-control:focus,
+.contact .form-select:focus{
+  border-color: var(--c-teal);
+  box-shadow: 0 0 0 .25rem rgba(92,197,208,.25);
+}
+
+/* Make the small icons and section title pop on teal */
+.contact .section-title{ color: #fff; }
+.contact .list-unstyled i{ color: var(--c-yellow); }
+
+/* Keep the CTA punchy on teal */
+.contact .btn-yellow{
+  background: var(--c-yellow);
+  border-color: var(--c-yellow);
+  color:#2a2400;
+}
+.contact .btn-yellow:hover{
+  filter: brightness(.95);
+}
+
 
     /* Footer (deep blue with yellow links) */
     footer{ background: var(--c-blue); color: var(--white); }
@@ -764,15 +801,18 @@
 <section id="contact" class="contact py-5">
   <div class="container">
     <div class="row g-5">
+      <!-- Contact Info -->
       <div class="col-lg-6">
         <h2 class="section-title mb-3 text-white">Get in Touch</h2>
         <p class="mb-4">Tell us about your cargo, timelines, and any special handling. Our team will respond with a tailored plan.</p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled text-white">
           <li class="mb-2"><i class="bi bi-telephone me-2"></i> +91-00000-00000</li>
-          <li class="mb-2"><i class="bi bi-envelope me-2"></i> sales@loadplus.in</li>
-          <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> Mumbai • Delhi • Chennai • Bengaluru</li>
+          <li class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@loadplus.in" class="text-white">contact@loadplus.in</a></li>
+          <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> D-17/675, Second Floor, Gali No. 4, Ganesh Nagar II, Shakarpur, East Delhi, New Delhi – 110092, India</li>
         </ul>
       </div>
+
+      <!-- Contact Form -->
       <div class="col-lg-6">
         <div class="card border-0 shadow">
           <div class="card-body">
@@ -810,11 +850,12 @@
             </form>
           </div>
         </div>
-        <p class="small mt-2 mb-0">By submitting, you agree to our terms and privacy policy.</p>
+        <p class="small mt-2 mb-0 text-white">By submitting, you agree to our terms and privacy policy.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- FOOTER (Deep blue + yellow links) -->
 <footer class="py-4">

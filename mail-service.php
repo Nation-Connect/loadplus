@@ -12,11 +12,11 @@
     if(isset($_POST['send-contact-mail']))
     {	    
         $fname = $_POST["fname"];
-        $lname = $_POST["lname"];
+        $service = $_POST["service"];
         $email = $_POST["email"];
         $message = $_POST["message"];
         $mobile = $_POST["mobile"];
-        $body = 'First name:- '.$fname.'<br>Last name:- '.$lname.'<br>Email id:- '.$email.'<br>Mobile:- '.$mobile.'<br>Message:- '.$message;
+        $body = 'Name:- '.$fname.'<br>Service:- '.$service.'<br>Email id:- '.$email.'<br>Mobile:- '.$mobile.'<br>Message:- '.$message;
     }
         
     try {
