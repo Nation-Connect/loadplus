@@ -80,8 +80,8 @@
         <div id="navMain" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto align-items-lg-center">
             <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             <li class="nav-item ms-lg-3"><a class="btn btn-teal" href="#quote">Get a Quote</a></li>
         </ul>
@@ -502,185 +502,34 @@
   </div>
 </section>
 
-    <!-- banner -->
-
-    <!-- //banner -->
-    <!-- Modal1 -->
-    <!-- //Modal1 -->
-    <!-- about -->
-
-    <div class="about" id="about" style="padding-bottom: 5rem">
-        <div class="container">
-            <div class="agileits-title">
-                <div class="agileits-title-left">
-                    <h6>ABOUT</h6>
-
-                    <h3 title="The Loadplus Private Limited">Loadplus Private Limited</h3>
-                </div>
-
-                <div class="agileits-title-right"></div>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="wthree-about">
-                <div class="col-md-5 wthree-ab-left"><img alt="Loadplus Private Limited" class="responsive" src="images/fulltruckload.jpg" title="Loadplus Private Limited " /></div>
-
-                <div class="col-md-7 wthree-ab-right">
-                    <p>Loadplus Private Limited, founded on August 4, 2023, is your trusted logistics and warehousing
-                        partner. We're located in East Delhi, strategically serving businesses across India.
-
-                        Our Pledge:
-
-                        We're dedicated to simplifying your supply chain. Our full truck load (FTL) service handles your
-                        entire supply chain in one place. We're unwavering in our commitment to excellence and your
-                        satisfaction.
-
-                        Key Info:
-
-                        Founded on August 4, 2023 and
-                        Led by Bhuvneshver Khobre, our team knows logistics inside out, ensuring efficient and timely
-                        cargo delivery. We're all about quality and reliability, making us your top choice for logistics
-                        and warehousing.
-
-                        Opt for Loadplus Private Limited for a seamless, integrated, and stress-free logistics journey.
-                        Your supply chain is our focus, and we're here to help you excel in today's competitive market.
-
-
-
-
-                    </p>
-                    <a class="read2 hvr-bounce-to-right" href="#about">Learn More</a>
-                </div>
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
+<!-- GALLERY (Very light teal tint) -->
+<section id="gallery" class="gallery py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-2" style="color: var(--c-blue); font-weight: 700;">
+      Our Prestigious Clients
+    </h2>
+    <p class="text-center text-muted mb-4" style="max-width: 600px; margin: 0 auto;">
+      We are proud to partner with some of the most respected names across industries.
+    </p>
+    <div class="row g-3">
+      <div class="col-6 col-lg-3">
+        <img class="img-fluid rounded shadow-sm" src="./images/customer/rspl.png" alt="Warehouse aisle with racks">
+      </div>
+      <div class="col-6 col-lg-3">
+        <img class="img-fluid rounded shadow-sm" src="./images/customer/bigbasket.png" alt="Team working with boxes">
+      </div>
+      <div class="col-6 col-lg-3">
+        <img class="img-fluid rounded shadow-sm" src="./images/customer/delhivery.png" alt="Shipping containers">
+      </div>
+      <div class="col-6 col-lg-3">
+        <img class="img-fluid rounded shadow-sm" src="./images/customer/flipkart.png" alt="Forklift operations">
+      </div>
     </div>
-    <!-- //about -->
-    <!-- stats -->
+  </div>
+</section>
 
-    <div class="stats" id="stats">
-        <div class="container">
-            <div class="inner_w3l_agile_grids">
-                <div class="col-md-3 w3layouts_stats_left w3_counter_grid">
-                    <p class="counter">58+</p>
 
-                    <h3>Clients</h3>
-                </div>
 
-                <div class="col-md-3 w3layouts_stats_left w3_counter_grid1">
-                    <p class="counter">25+</p>
-
-                    <h3>Branches</h3>
-                </div>
-
-                <div class="col-md-3 w3layouts_stats_left w3_counter_grid2">
-                    <p class="counter">600+</p>
-
-                    <h3>Fleet Strength</h3>
-                </div>
-
-                <div class="col-md-3 w3layouts_stats_left w3_counter_grid3">
-                    <p class="counter">5,34,501+</p>
-
-                    <h3>Warehouse</h3>
-                </div>
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-    <!-- //stats -->
-    <!-- services -->
-
-    <div class="about services" id="services" style="padding-bottom: 5rem">
-        <div class="container">
-            <div class="agileits-title">
-                <div class="agileits-title-left">
-                    <h6>What We Offer</h6>
-
-                    <h3 title="Our Services">Our Services</h3>
-                </div>
-
-                <div class="agileits-title-right"></div>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div id="horizontalTab">
-                <ul class="resp-tabs-list">
-                    <li title="Warehousing">Warehousing</li>
-                    <li title="Last Mile Delivery">Last Mile Delivery</li>
-                    <li title="Full Truck Load">Full Truck Load</li>
-                    <li title="Complete Supply Chain Solution">Complete Supply Chain Solution</li>
-                </ul>
-
-                <div class="resp-tabs-container">
-                    <div class="tab1">
-                        <div class="col-md-6 tab-info-img"><img alt="Warehousing" src="images/service/Warehouse.jpg" title="Warehousing" /></div>
-
-                        <div class="col-md-6 tab-info">
-                            <h4 title="Warehousing">Warehousing</h4>
-
-                            <p>LoadPlus Pvt. Ltd. offers exceptional warehousing services designed to meet your business
-                                needs. With a strong presence in Delhi and a branch network covering Pan India, we
-                                deliver tailored solutions for your storage and distribution requirements.</p>
-                        </div>
-
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="tab2">
-                        <div class="col-md-6 tab-info-img"><img alt="Last Mile Delivery" src="images/service/lastmiledelivery.jpg" title="Last Mile Delivery" /></div>
-
-                        <div class="col-md-6 tab-info">
-                            <h4 title="Last Mile Delivery">Last Mile Delivery</h4>
-
-                            <p>LoadPlus Pvt. Ltd. excels in providing efficient last mile delivery services. With a
-                                commitment to timely and reliable distribution, we ensure your products reach their
-                                final destination swiftly. Trust us for the final link in your supply chain, making sure
-                                your goods arrive safely and on schedule.</p>
-                        </div>
-
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="tab3">
-                        <div class="col-md-6 tab-info-img"><img alt="Full Truck Load (FTL)" src="images/service/fulltruckload.png" title="Full Truck Load (FTL)" /></div>
-                        <div class="col-md-6 tab-info">
-                            <h4 title="Full Truck Load (FTL)">Full Truck Load (FTL)</h4>
-
-                            <p>LoadPlus Pvt. Ltd. offers superior Full Truck Load (FTL) services tailored to your cargo
-                                needs. With a focus on maximizing capacity and minimizing costs, we ensure your goods
-                                are transported efficiently and securely. Count on us for a seamless FTL solution that
-                                takes your logistics to the next level.</p>
-                        </div>
-
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="tab4">
-                        <div class="col-md-6 tab-info-img"><img alt="Complete Supply Chain Solutions Under One Roof" src="images/service/completesupplychain.png" title="Complete Supply Chain Solutions Under One Roof" /></div>
-
-                        <div class="col-md-6 tab-info">
-                            <h4 title="Complete Supply Chain Solutions Under One Roof">Complete Supply Chain Solutions
-                                Under One Roof</h4>
-
-                            <p>LoadPlus Pvt. Ltd. offers end-to-end supply chain solutions, all conveniently housed
-                                under one roof. From warehousing to distribution, we've got your logistics needs
-                                covered. Experience the convenience of a seamless, integrated supply chain solution with
-                                LoadPlus Pvt. Ltd.</p>
-                        </div>
-
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //services -->
-    <!-- gallery -->
 
     <div class="gallery" id="gallery">
         <div class="container">
