@@ -110,6 +110,8 @@
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 6"></button>
             </div>
             <!-- Slides -->
             <div class="carousel-inner">
@@ -587,8 +589,8 @@
             <script src="js/main.js"></script><!-- Resource jQuery -->
             <!-- smooth-scrolling-of-move-up -->
             <!-- carousel -->
-            <script src="js/owl.carousel.js"></script>
-            <script>
+            <!-- <script src="js/owl.carousel.js"></script> -->
+            <!-- <script>
                 $(document).ready(function() {
                     $("#owl-demo").owlCarousel({
                         items: 5,
@@ -603,7 +605,8 @@
                     });
 
                 });
-            </script><!-- //carousel -->
+            </script> -->
+            <!-- //carousel -->
             <script type="text/javascript">
                 $(document).ready(function() {
                     /*
