@@ -168,7 +168,29 @@ body {
 
 /* Services (light yellow tint + teal icons) */
 .services {
-    background: var(--tint-yellow);
+    background: var(--tint-teal);
+    /* was var(--tint-yellow) */
+}
+
+#services .nav-pills .nav-link {
+    border: 1px solid rgba(0, 0, 0, .06);
+    color: var(--c-blue);
+    background: #fff;
+    font-weight: 600;
+    border-radius: 999px;
+    padding: .5rem 1rem;
+}
+
+#services .nav-pills .nav-link:hover {
+    border-color: var(--c-teal);
+    color: #05343a;
+}
+
+#services .nav-pills .nav-link.active {
+    background: var(--c-teal);
+    color: #05343a;
+    border-color: var(--c-teal);
+    box-shadow: 0 6px 14px rgba(35, 141, 150, .18);
 }
 
 .icon-badge {

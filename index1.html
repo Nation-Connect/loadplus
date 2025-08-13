@@ -96,7 +96,27 @@
     .stat-value{ color:var(--c-pink); }
 
     /* Services (light yellow tint + teal icons) */
-    .services{ background: var(--tint-yellow); }
+    .services {
+  background: var(--tint-teal); /* was var(--tint-yellow) */
+}
+#services .nav-pills .nav-link {
+  border: 1px solid rgba(0,0,0,.06);
+  color: var(--c-blue);
+  background: #fff;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: .5rem 1rem;
+}
+#services .nav-pills .nav-link:hover {
+  border-color: var(--c-teal);
+  color: #05343a;
+}
+#services .nav-pills .nav-link.active {
+  background: var(--c-teal);
+  color: #05343a;
+  border-color: var(--c-teal);
+  box-shadow: 0 6px 14px rgba(35,141,150,.18);
+}
     .icon-badge{
       width:46px; height:46px; border-radius:12px;
       display:flex; align-items:center; justify-content:center;
@@ -235,55 +255,148 @@
   </div>
 </section>
 
-<!-- SERVICES (Light Yellow tint, teal icons) -->
-<section id="services" class="services py-5">
+<!-- SERVICES (Tabbed, with images) -->
+<section id="services" class="py-5 services">
   <div class="container">
-    <div class="row align-items-center g-5">
-      <div class="col-lg-6">
-        <h2 class="section-title mb-3">End-to-End Services</h2>
-        <p class="mb-4">Integrated, tech-enabled logistics tailored to your volume, lanes, and compliance needs.</p>
+    <div class="text-center mb-4">
+      <h6 class="mb-1" style="color:var(--c-deepteal);">What We Offer</h6>
+      <h2 class="section-title">Our Services</h2>
+    </div>
 
-        <div class="d-flex gap-3 align-items-start mb-3">
-          <div class="icon-badge"><i class="bi bi-box-seam"></i></div>
-          <div>
-            <h5 class="mb-1">Warehousing & Fulfilment</h5>
-            <p class="mb-0">Bonded & non-bonded storage, inventory control, pick-pack, kitting, VAS.</p>
+    <!-- Tabs -->
+    <ul class="nav nav-pills justify-content-center gap-2 mb-4" id="servicesTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="tab-warehousing" data-bs-toggle="pill" data-bs-target="#pane-warehousing" type="button" role="tab" aria-controls="pane-warehousing" aria-selected="true">
+      Warehousing
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab-lastmile" data-bs-toggle="pill" data-bs-target="#pane-lastmile" type="button" role="tab" aria-controls="pane-lastmile" aria-selected="false">
+      Last Mile Delivery
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab-ftl" data-bs-toggle="pill" data-bs-target="#pane-ftl" type="button" role="tab" aria-controls="pane-ftl" aria-selected="false">
+      Full Truck Load
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="tab-supplychain" data-bs-toggle="pill" data-bs-target="#pane-supplychain" type="button" role="tab" aria-controls="pane-supplychain" aria-selected="false">
+      Complete Supply Chain Solution
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+  <button class="nav-link" id="tab-globaltrade" data-bs-toggle="pill"
+          data-bs-target="#pane-globaltrade" type="button" role="tab"
+          aria-controls="pane-globaltrade" aria-selected="false">
+    Global Trade Solutions
+  </button>
+</li>
+
+</ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <!-- Warehousing -->
+      <div class="tab-pane fade show active" id="pane-warehousing" role="tabpanel" aria-labelledby="tab-warehousing" tabindex="0">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <img src="images/service/Warehouse.jpg" alt="Warehousing" class="img-fluid rounded-14 shadow">
           </div>
-        </div>
-
-        <div class="d-flex gap-3 align-items-start mb-3">
-          <div class="icon-badge"><i class="bi bi-globe2"></i></div>
-          <div>
-            <h5 class="mb-1">Import/Export & Customs</h5>
-            <p class="mb-0">Ocean & air freight, CHA support, documentation, duty drawback & compliance.</p>
-          </div>
-        </div>
-
-        <div class="d-flex gap-3 align-items-start mb-3">
-          <div class="icon-badge"><i class="bi bi-truck"></i></div>
-          <div>
-            <h5 class="mb-1">Transportation</h5>
-            <p class="mb-0">FTL/LTL, cross-dock, temperature-controlled and last-mile delivery.</p>
-          </div>
-        </div>
-
-        <div class="d-flex gap-3 align-items-start">
-          <div class="icon-badge"><i class="bi bi-graph-up"></i></div>
-          <div>
-            <h5 class="mb-1">Visibility & Analytics</h5>
-            <p class="mb-0">WMS/TMS tracking, SLAs, and real-time dashboards for informed decisions.</p>
+          <div class="col-md-6">
+            <h4 class="mb-2">Warehousing</h4>
+            <p>
+              LoadPlus Pvt. Ltd. offers exceptional warehousing services designed to meet your business needs.
+              With a strong presence in Delhi and a branch network covering Pan India, we deliver tailored solutions
+              for your storage and distribution requirements.
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-6">
-        <img class="img-fluid rounded-14 shadow"
-             src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1600&auto=format&fit=crop"
-             alt="Container handling at a port">
+      <!-- Last Mile Delivery -->
+      <div class="tab-pane fade" id="pane-lastmile" role="tabpanel" aria-labelledby="tab-lastmile" tabindex="0">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <img src="images/service/lastmiledelivery.jpg" alt="Last Mile Delivery" class="img-fluid rounded-14 shadow">
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-2">Last Mile Delivery</h4>
+            <p>
+              LoadPlus Pvt. Ltd. excels in providing efficient last mile delivery services. With a commitment to timely
+              and reliable distribution, we ensure your products reach their final destination swiftly. Trust us for the
+              final link in your supply chain, making sure your goods arrive safely and on schedule.
+            </p>
+          </div>
+        </div>
       </div>
+
+      <!-- Full Truck Load (FTL) -->
+      <div class="tab-pane fade" id="pane-ftl" role="tabpanel" aria-labelledby="tab-ftl" tabindex="0">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <img src="images/service/fulltruckload.png" alt="Full Truck Load (FTL)" class="img-fluid rounded-14 shadow">
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-2">Full Truck Load (FTL)</h4>
+            <p>
+              LoadPlus Pvt. Ltd. offers superior Full Truck Load (FTL) services tailored to your cargo needs. With a
+              focus on maximizing capacity and minimizing costs, we ensure your goods are transported efficiently and
+              securely. Count on us for a seamless FTL solution that takes your logistics to the next level.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Complete Supply Chain Solution -->
+      <div class="tab-pane fade" id="pane-supplychain" role="tabpanel" aria-labelledby="tab-supplychain" tabindex="0">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <img src="images/service/completesupplychain.png" alt="Complete Supply Chain Solutions Under One Roof" class="img-fluid rounded-14 shadow">
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-2">Complete Supply Chain Solutions Under One Roof</h4>
+            <p>
+              LoadPlus Pvt. Ltd. offers end-to-end supply chain solutions, all conveniently housed under one roof.
+              From warehousing to distribution, we've got your logistics needs covered. Experience the convenience of a
+              seamless, integrated supply chain solution with LoadPlus Pvt. Ltd.
+            </p>
+          </div>
+        </div>
+      </div>
+
+<!-- Global Trade Solutions -->
+<div class="tab-pane fade" id="pane-globaltrade" role="tabpanel"
+     aria-labelledby="tab-globaltrade" tabindex="0">
+  <div class="row align-items-center g-4">
+    <div class="col-md-6">
+      <!-- Update the image path to your actual file -->
+      <img src="images/service/global-trade.jpg" alt="Global Trade Solutions"
+           class="img-fluid rounded-14 shadow">
+    </div>
+    <div class="col-md-6">
+      <h4 class="mb-2">Global Trade Solutions</h4>
+      <p>
+        Simplify cross-border shipping with end-to-end export–import support. We handle
+        documentation, customs, international freight, and last-mile delivery so your cargo
+        moves on time and in compliance.
+      </p>
+      <ul class="text-muted small list-unstyled mb-0">
+        <li>• CHA & customs clearance (import & export)</li>
+        <li>• Ocean & air freight with reliable transit options</li>
+        <li>• Incoterms guidance, duties & compliance support</li>
+        <li>• Door-to-door & multi-modal solutions worldwide</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
     </div>
   </div>
 </section>
+
 
 <!-- ABOUT (White, blue headings, yellow highlights) -->
 <section id="about" class="py-5">
@@ -307,6 +420,75 @@
     </div>
   </div>
 </section>
+
+<!-- PRODUCTS -->
+<section class="py-5 bg-light" id="products">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold section-title" style="color:var(--c-blue);">Our Products</h2>
+    <div class="row g-4">
+
+      <!-- Fly Ash -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0 rounded-14">
+          <img src="images/flyash.jpg" class="card-img-top" alt="Fly Ash">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold" style="color:var(--c-deepteal);">Fly Ash</h5>
+            <p class="card-text text-muted">
+              Consistent, quality fly ash for cement and concrete—improves workability, durability, and long-term strength.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ultra Fine Fly Ash -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0 rounded-14">
+          <img src="images/ultra-fine-flyash.jpg" class="card-img-top" alt="Ultra Fine Fly Ash">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold" style="color:var(--c-deepteal);">Ultra Fine Fly Ash</h5>
+            <p class="card-text text-muted">
+              Micronized ash for high-performance mixes—low permeability, dense matrices, and premium finish.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fly Ash Bricks -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0 rounded-14">
+          <img src="images/flyash-bricks.jpg" class="card-img-top" alt="Fly Ash Bricks">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold" style="color:var(--c-deepteal);">Fly Ash Bricks</h5>
+            <p class="card-text text-muted">
+              Eco-friendly bricks with uniform shape and strength—ideal for sustainable, cost-effective construction.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cenosphere -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0 rounded-14">
+          <img src="images/cenosphere.jpg" class="card-img-top" alt="Cenosphere">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold" style="color:var(--c-deepteal);">Cenosphere</h5>
+            <p class="card-text text-muted">
+              Ultra-light, inert, hollow ceramic microspheres from fly ash. Used to reduce weight and thermal
+              conductivity in cement, polymers, coatings, and composites—without sacrificing strength.
+            </p>
+            <ul class="text-muted small text-start list-unstyled mb-0">
+              <li>• Low density (typically ~0.4–0.8 g/cm³) for light-weighting</li>
+              <li>• Mostly silica & alumina; hard, water-resistant, and insulative</li>
+              <li>• Improves flow, reduces shrinkage, and lowers resin usage</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 <!-- GALLERY (Very light teal tint) -->
 <section id="gallery" class="gallery py-5">
