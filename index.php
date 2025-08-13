@@ -17,6 +17,11 @@
             window.scrollTo(0, 1);
         }
     </script>
+
+        <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <!-- <link href="css/bootstrap.css" media="all" rel="stylesheet" type="text/css" /> -->
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
     <!-- <link href="css/slider.css" media="all" rel="stylesheet" type="text/css" />
@@ -33,11 +38,6 @@
     <!-- //web-fonts -->
     <!-- <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> -->
 
-
-    <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
     <style>
         .agileinfo-gallery-row>.container {
