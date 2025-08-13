@@ -231,6 +231,53 @@
 
 }
 
+/* ——— Clients / Logos ——— */
+.clients { background: var(--tint-teal); }
+
+.clients h2 { color: var(--c-blue); }
+
+.clients-subtitle{
+  max-width: 720px; margin: 0 auto 1.5rem; color:#648195;
+}
+
+.brand-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.brand-card{
+  background:#fff;
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:16px;
+  padding: 20px 22px;
+  height: 120px;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 8px 22px rgba(14,43,56,.08);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.brand-card:hover{
+  transform: translateY(-3px);
+  border-color: rgba(35,141,150,.35);
+  box-shadow: 0 14px 28px rgba(14,43,56,.12);
+}
+
+.brand-logo{
+  width:100%; height:100%;
+  object-fit: contain; object-position:center;
+  filter: grayscale(40%) contrast(1.05);
+  transition: filter .18s ease;
+}
+
+.brand-card:hover .brand-logo{ filter:none; }
+
+/* small screens */
+@media (max-width: 575.98px){
+  .brand-card{ height: 100px; padding:16px; }
+}
+
+
   </style>
 </head>
 <body>
@@ -666,30 +713,51 @@
 
 
 <!-- GALLERY (Very light teal tint) -->
-<section id="gallery" class="gallery py-5">
+<section id="clients" class="clients py-5">
   <div class="container">
-    <h2 class="section-title text-center mb-2" style="color: var(--c-blue); font-weight: 700;">
-     Our Prestigious Clients
-    </h2>
-    <p class="text-center text-muted mb-4" style="max-width: 600px; margin: 0 auto;">
-      We are proud to partner with some of the most respected names across industries.
+    <h2 class="section-title text-center mb-2">Our Prestigious Clients</h2>
+    <p class="clients-subtitle text-center">
+      We are proud to partner with respected brands that trust LoadPlus for warehousing,
+      transportation, and import–export logistics.
     </p>
-    <div class="row g-3">
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="https://images.unsplash.com/photo-1544531587-0683bb67d5dc?q=80&w=1200&auto=format&fit=crop" alt="Warehouse aisle with racks">
-      </div>
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=1200&auto=format&fit=crop" alt="Team working with boxes">
-      </div>
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=1200&auto=format&fit=crop" alt="Shipping containers">
-      </div>
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="https://images.unsplash.com/photo-1554631231-2a9606b53f59?q=80&w=1200&auto=format&fit=crop" alt="Forklift operations">
-      </div>
+
+    <div class="brand-grid">
+      <!-- RSPL -->
+      <figure class="brand-card" aria-label="RSPL">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/5/51/RSPL_logo.png"
+             alt="RSPL logo">
+      </figure>
+
+      <!-- BigBasket -->
+      <figure class="brand-card" aria-label="BigBasket">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/0/0d/BigBasket_Logo.png"
+             alt="BigBasket logo">
+      </figure>
+
+      <!-- Delhivery -->
+      <figure class="brand-card" aria-label="Delhivery">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Delhivery_Logo.png"
+             alt="Delhivery logo">
+      </figure>
+
+      <!-- Flipkart -->
+      <figure class="brand-card" aria-label="Flipkart">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Flipkart_logo.png"
+             alt="Flipkart logo">
+      </figure>
+
+      <!-- Add more logos the same way -->
+      <!--
+      <figure class="brand-card"><img class="brand-logo" loading="lazy" src="..." alt="Client name"></figure>
+      -->
     </div>
   </div>
 </section>
+
 
 
 <!-- CONTACT (Solid pink, white text, yellow CTA) -->

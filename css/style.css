@@ -355,3 +355,49 @@ footer a:hover {
         /* slightly smaller on very small screens */
     }
 }
+
+/* ——— Clients / Logos ——— */
+.clients { background: var(--tint-teal); }
+
+.clients h2 { color: var(--c-blue); }
+
+.clients-subtitle{
+  max-width: 720px; margin: 0 auto 1.5rem; color:#648195;
+}
+
+.brand-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.brand-card{
+  background:#fff;
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:16px;
+  padding: 20px 22px;
+  height: 120px;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 8px 22px rgba(14,43,56,.08);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.brand-card:hover{
+  transform: translateY(-3px);
+  border-color: rgba(35,141,150,.35);
+  box-shadow: 0 14px 28px rgba(14,43,56,.12);
+}
+
+.brand-logo{
+  width:100%; height:100%;
+  object-fit: contain; object-position:center;
+  filter: grayscale(40%) contrast(1.05);
+  transition: filter .18s ease;
+}
+
+.brand-card:hover .brand-logo{ filter:none; }
+
+/* small screens */
+@media (max-width: 575.98px){
+  .brand-card{ height: 100px; padding:16px; }
+}

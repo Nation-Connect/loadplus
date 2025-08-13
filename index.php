@@ -503,30 +503,51 @@
 </section>
 
 <!-- GALLERY (Very light teal tint) -->
-<section id="gallery" class="gallery py-5">
+<section id="clients" class="clients py-5">
   <div class="container">
-    <h2 class="section-title text-center mb-2" style="color: var(--c-blue); font-weight: 700;">
-      Our Prestigious Clients
-    </h2>
-    <p class="text-center text-muted mb-4" style="max-width: 600px; margin: 0 auto;">
-      We are proud to partner with some of the most respected names across industries.
+    <h2 class="section-title text-center mb-2">Our Prestigious Clients</h2>
+    <p class="clients-subtitle text-center">
+      We are proud to partner with respected brands that trust LoadPlus for warehousing,
+      transportation, and import–export logistics.
     </p>
-    <div class="row g-3">
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="./images/customer/rspl.png" alt="Warehouse aisle with racks">
-      </div>
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="./images/customer/bigbasket.png" alt="Team working with boxes">
-      </div>
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="./images/customer/delhivery.png" alt="Shipping containers">
-      </div>
-      <div class="col-6 col-lg-3">
-        <img class="img-fluid rounded shadow-sm" src="./images/customer/flipkart.png" alt="Forklift operations">
-      </div>
+
+    <div class="brand-grid">
+      <!-- RSPL -->
+      <figure class="brand-card" aria-label="RSPL">
+        <img class="brand-logo" loading="lazy"
+             src="./images/customer/rspl.png"
+             alt="RSPL logo">
+      </figure>
+
+      <!-- BigBasket -->
+      <figure class="brand-card" aria-label="BigBasket">
+        <img class="brand-logo" loading="lazy"
+             src="./images/customer/bigbasket.png"
+             alt="BigBasket logo">
+      </figure>
+
+      <!-- Delhivery -->
+      <figure class="brand-card" aria-label="Delhivery">
+        <img class="brand-logo" loading="lazy"
+             src="./images/customer/delhivery.png"
+             alt="Delhivery logo">
+      </figure>
+
+      <!-- Flipkart -->
+      <figure class="brand-card" aria-label="Flipkart">
+        <img class="brand-logo" loading="lazy"
+             src="./images/customer/flipkart.png"
+             alt="Flipkart logo">
+      </figure>
+
+      <!-- Add more logos the same way -->
+      <!--
+      <figure class="brand-card"><img class="brand-logo" loading="lazy" src="..." alt="Client name"></figure>
+      -->
     </div>
   </div>
 </section>
+
 
 
 
