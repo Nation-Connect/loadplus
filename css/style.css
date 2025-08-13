@@ -312,21 +312,44 @@ body {
     border-radius: 12px;
 }
 
-/* Contact (solid pink background, white text, yellow buttons) */
-.contact {
-    background: var(--c-pink);
-    color: var(--white);
+.contact{
+  background: linear-gradient(160deg, var(--c-teal) 0%, var(--c-deepteal) 70%);
+  color: var(--white);
+}
+
+/* Card + form polish on teal background */
+.contact .card{
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 16px 36px rgba(14,43,56,.18);
 }
 
 .contact .form-control,
-.contact .form-select {
-    background: rgba(255, 255, 255, .95);
-    border: none;
+.contact .form-select{
+  background: rgba(255,255,255,.96);
+  border: 1px solid rgba(0,0,0,.06);
 }
 
+.contact .form-control::placeholder{ color:#6a8896; }
+
 .contact .form-control:focus,
-.contact .form-select:focus {
-    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, .3);
+.contact .form-select:focus{
+  border-color: var(--c-teal);
+  box-shadow: 0 0 0 .25rem rgba(92,197,208,.25);
+}
+
+/* Make the small icons and section title pop on teal */
+.contact .section-title{ color: #fff; }
+.contact .list-unstyled i{ color: var(--c-yellow); }
+
+/* Keep the CTA punchy on teal */
+.contact .btn-yellow{
+  background: var(--c-yellow);
+  border-color: var(--c-yellow);
+  color:#2a2400;
+}
+.contact .btn-yellow:hover{
+  filter: brightness(.95);
 }
 
 /* Footer (deep blue with yellow links) */
