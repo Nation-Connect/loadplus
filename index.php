@@ -83,7 +83,7 @@
             <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            <li class="nav-item ms-lg-3"><a class="btn btn-teal" href="#quote">Get a Quote</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn btn-teal" href="#contact">Get a Quote</a></li>
         </ul>
         </div>
     </div>
