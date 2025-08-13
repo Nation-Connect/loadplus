@@ -176,146 +176,180 @@
     </div>
     </section>
 
-    <!-- SERVICES (Tabbed, with images) -->
-    <section id="services" class="py-5 services">
-    <div class="container">
-        <div class="text-center mb-4">
-        <h6 class="mb-1" style="color:var(--c-deepteal);">What We Offer</h6>
-        <h2 class="section-title">Our Services</h2>
-        </div>
-
-        <!-- Tabs -->
-        <ul class="nav nav-pills justify-content-center gap-2 mb-4" id="servicesTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="tab-warehousing" data-bs-toggle="pill" data-bs-target="#pane-warehousing" type="button" role="tab" aria-controls="pane-warehousing" aria-selected="true">
-                Warehousing
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="tab-lastmile" data-bs-toggle="pill" data-bs-target="#pane-lastmile" type="button" role="tab" aria-controls="pane-lastmile" aria-selected="false">
-                Last Mile Delivery
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="tab-ftl" data-bs-toggle="pill" data-bs-target="#pane-ftl" type="button" role="tab" aria-controls="pane-ftl" aria-selected="false">
-                Full Truck Load
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="tab-supplychain" data-bs-toggle="pill" data-bs-target="#pane-supplychain" type="button" role="tab" aria-controls="pane-supplychain" aria-selected="false">
-                Complete Supply Chain Solution
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab-globaltrade" data-bs-toggle="pill"
-                    data-bs-target="#pane-globaltrade" type="button" role="tab"
-                    aria-controls="pane-globaltrade" aria-selected="false">
-                Global Trade Solutions
-            </button>
-            </li>
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-
-        <!-- Warehousing -->
-        <div class="tab-pane fade show active" id="pane-warehousing" role="tabpanel" aria-labelledby="tab-warehousing" tabindex="0">
-            <div class="row align-items-center g-4">
-            <div class="col-md-6">
-                <img src="images/service/integrated-logistics.1.11.jpg" alt="Warehousing" class="img-fluid rounded-14 shadow">
-            </div>
-            <div class="col-md-6">
-                <h4 class="mb-2">Warehousing</h4>
-                <p>
-                LoadPlus Pvt. Ltd. offers exceptional warehousing services designed to meet your business needs.
-                With a strong presence in Delhi and a branch network covering Pan India, we deliver tailored solutions
-                for your storage and distribution requirements.
-                </p>
-            </div>
-            </div>
-        </div>
-
-        <!-- Last Mile Delivery -->
-        <div class="tab-pane fade" id="pane-lastmile" role="tabpanel" aria-labelledby="tab-lastmile" tabindex="0">
-            <div class="row align-items-center g-4">
-            <div class="col-md-6">
-                <img src="images/service/Untangle-your-delivery-network-blog-1920x1280-1.png" alt="Last Mile Delivery" class="img-fluid rounded-14 shadow">
-            </div>
-            <div class="col-md-6">
-                <h4 class="mb-2">Last Mile Delivery</h4>
-                <p>
-                LoadPlus Pvt. Ltd. excels in providing efficient last mile delivery services. With a commitment to timely
-                and reliable distribution, we ensure your products reach their final destination swiftly. Trust us for the
-                final link in your supply chain, making sure your goods arrive safely and on schedule.
-                </p>
-            </div>
-            </div>
-        </div>
-
-        <!-- Full Truck Load (FTL) -->
-        <div class="tab-pane fade" id="pane-ftl" role="tabpanel" aria-labelledby="tab-ftl" tabindex="0">
-            <div class="row align-items-center g-4">
-            <div class="col-md-6">
-                <img src="images/service/Full-Truck-Load-1-1024x683.webp" alt="Full Truck Load (FTL)" class="img-fluid rounded-14 shadow">
-            </div>
-            <div class="col-md-6">
-                <h4 class="mb-2">Full Truck Load (FTL)</h4>
-                <p>
-                LoadPlus Pvt. Ltd. offers superior Full Truck Load (FTL) services tailored to your cargo needs. With a
-                focus on maximizing capacity and minimizing costs, we ensure your goods are transported efficiently and
-                securely. Count on us for a seamless FTL solution that takes your logistics to the next level.
-                </p>
-            </div>
-            </div>
-        </div>
-
-        <!-- Complete Supply Chain Solution -->
-        <div class="tab-pane fade" id="pane-supplychain" role="tabpanel" aria-labelledby="tab-supplychain" tabindex="0">
-            <div class="row align-items-center g-4">
-            <div class="col-md-6">
-                <img src="images/service/What-are-Supply-Chain-Solutions-ColtonCooper-Logistics.webp" alt="Complete Supply Chain Solutions Under One Roof" class="img-fluid rounded-14 shadow">
-            </div>
-            <div class="col-md-6">
-                <h4 class="mb-2">Complete Supply Chain Solutions Under One Roof</h4>
-                <p>
-                LoadPlus Pvt. Ltd. offers end-to-end supply chain solutions, all conveniently housed under one roof.
-                From warehousing to distribution, we've got your logistics needs covered. Experience the convenience of a
-                seamless, integrated supply chain solution with LoadPlus Pvt. Ltd.
-                </p>
-            </div>
-            </div>
-        </div>
-
-        <!-- Global Trade Solutions -->
-        <div class="tab-pane fade" id="pane-globaltrade" role="tabpanel"
-            aria-labelledby="tab-globaltrade" tabindex="0">
-        <div class="row align-items-center g-4">
-            <div class="col-md-6">
-            <!-- Update the image path to your actual file -->
-            <img src="images/service/vibrant-busy-cargo-port-with-ships-cranes-containers_212944-31933.jpg" alt="Global Trade Solutions"
-                class="img-fluid rounded-14 shadow">
-            </div>
-            <div class="col-md-6">
-            <h4 class="mb-2">Global Trade Solutions</h4>
-            <p>
-                Simplify cross-border shipping with end-to-end export–import support. We handle
-                documentation, customs, international freight, and last-mile delivery so your cargo
-                moves on time and in compliance.
-            </p>
-            <ul class="text-muted small list-unstyled mb-0">
-                <li>• CHA & customs clearance (import & export)</li>
-                <li>• Ocean & air freight with reliable transit options</li>
-                <li>• Incoterms guidance, duties & compliance support</li>
-                <li>• Door-to-door & multi-modal solutions worldwide</li>
-            </ul>
-            </div>
-        </div>
-        </div>
-
-
-        </div>
+  <!-- SERVICES (Tabbed, with images) -->
+<section id="services" class="py-5 services">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h6 class="mb-1" style="color:var(--c-deepteal);">What We Offer</h6>
+      <h2 class="section-title">Our Services</h2>
     </div>
-    </section>
+
+    <!-- Tabs -->
+    <ul class="nav nav-pills justify-content-center mb-4" id="servicesTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="tab-warehousing" data-bs-toggle="pill" data-bs-target="#pane-warehousing" type="button" role="tab" aria-controls="pane-warehousing" aria-selected="true">
+          Warehousing
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-lastmile" data-bs-toggle="pill" data-bs-target="#pane-lastmile" type="button" role="tab" aria-controls="pane-lastmile" aria-selected="false">
+          Last Mile Delivery
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-ftl" data-bs-toggle="pill" data-bs-target="#pane-ftl" type="button" role="tab" aria-controls="pane-ftl" aria-selected="false">
+          Full Truck Load
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-supplychain" data-bs-toggle="pill" data-bs-target="#pane-supplychain" type="button" role="tab" aria-controls="pane-supplychain" aria-selected="false">
+          Complete Supply Chain Solution
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-globaltrade" data-bs-toggle="pill" data-bs-target="#pane-globaltrade" type="button" role="tab" aria-controls="pane-globaltrade" aria-selected="false">
+          Global Trade Solutions
+        </button>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <!-- Warehousing -->
+      <div class="tab-pane fade show active" id="pane-warehousing" role="tabpanel" aria-labelledby="tab-warehousing" tabindex="0">
+        <div class="service-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+              <div class="service-media">
+                <img src="images/service/integrated-logistics.1.11.jpg" alt="Warehousing">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="service-body">
+                <h4 class="service-title">Warehousing</h4>
+                <p class="service-lead">
+                  LoadPlus Pvt. Ltd. delivers secure, scalable storage with bonded/non-bonded options, WMS visibility, and SOP-driven operations across Pan-India locations.
+                </p>
+                <ul class="service-bullets">
+                  <li><i class="bi bi-box-seam"></i><span>Inventory control, pick-pack, kitting & VAS</span></li>
+                  <li><i class="bi bi-shield-check"></i><span>Audit-ready processes and compliance</span></li>
+                  <li><i class="bi bi-graph-up"></i><span>Real-time dashboards & SLA tracking</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Last Mile Delivery -->
+      <div class="tab-pane fade" id="pane-lastmile" role="tabpanel" aria-labelledby="tab-lastmile" tabindex="0">
+        <div class="service-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+              <div class="service-media">
+                <img src="images/service/Untangle-your-delivery-network-blog-1920x1280-1.png" alt="Last Mile Delivery">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="service-body">
+                <h4 class="service-title">Last Mile Delivery</h4>
+                <p class="service-lead">
+                  Reliable doorstep delivery with smart routing, live tracking, and POD—optimized for speed and cost across metros and Tier-2/3 cities.
+                </p>
+                <ul class="service-bullets">
+                  <li><i class="bi bi-truck"></i><span>Dedicated/pooled fleets & micro-fulfilment</span></li>
+                  <li><i class="bi bi-clock-history"></i><span>On-time slots & scheduled delivery</span></li>
+                  <li><i class="bi bi-geo-alt"></i><span>Geo-fencing and delivery alerts</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Truck Load -->
+      <div class="tab-pane fade" id="pane-ftl" role="tabpanel" aria-labelledby="tab-ftl" tabindex="0">
+        <div class="service-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+              <div class="service-media">
+                <img src="images/service/Full-Truck-Load-1-1024x683.webp" alt="Full Truck Load (FTL)">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="service-body">
+                <h4 class="service-title">Full Truck Load (FTL)</h4>
+                <p class="service-lead">
+                  End-to-end FTL with route planning, secured transit, and network reliability to cut dwell time and reduce landed cost.
+                </p>
+                <ul class="service-bullets">
+                  <li><i class="bi bi-arrows-move"></i><span>Pan-India lanes & express options</span></li>
+                  <li><i class="bi bi-thermometer-half"></i><span>Dry & temperature-controlled</span></li>
+                  <li><i class="bi bi-shield-lock"></i><span>GPS, e-locks & in-transit insurance</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Complete Supply Chain Solution -->
+      <div class="tab-pane fade" id="pane-supplychain" role="tabpanel" aria-labelledby="tab-supplychain" tabindex="0">
+        <div class="service-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+              <div class="service-media">
+                <img src="images/service/What-are-Supply-Chain-Solutions-ColtonCooper-Logistics.webp" alt="Complete Supply Chain Solutions Under One Roof">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="service-body">
+                <h4 class="service-title">Complete Supply Chain Solution</h4>
+                <p class="service-lead">
+                  One partner for planning, inbound, storage, fulfilment, transportation, and returns—integrated with your ERP & marketplaces.
+                </p>
+                <ul class="service-bullets">
+                  <li><i class="bi bi-diagram-3"></i><span>Planning to last-mile orchestration</span></li>
+                  <li><i class="bi bi-cloud-arrow-up"></i><span>WMS/TMS & EDI/API integrations</span></li>
+                  <li><i class="bi bi-cash-coin"></i><span>Cost & SLA governance dashboards</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Global Trade Solutions -->
+      <div class="tab-pane fade" id="pane-globaltrade" role="tabpanel" aria-labelledby="tab-globaltrade" tabindex="0">
+        <div class="service-card">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+              <div class="service-media">
+                <img src="images/service/vibrant-busy-cargo-port-with-ships-cranes-containers_212944-31933.jpg" alt="Global Trade Solutions">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="service-body">
+                <h4 class="service-title">Global Trade Solutions</h4>
+                <p class="service-lead">
+                  Export–import made simple: documentation, customs, ocean/air, and door-to-door multi-modal—on time and compliant.
+                </p>
+                <ul class="service-bullets">
+                  <li><i class="bi bi-file-earmark-check"></i><span>CHA & customs clearance (import/export)</span></li>
+                  <li><i class="bi bi-airplane"></i><span>Ocean & air with dependable transits</span></li>
+                  <li><i class="bi bi-globe2"></i><span>Incoterms guidance & duty support</span></li>
+                  <li><i class="bi bi-geo"></i><span>Worldwide coverage with tracking</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /tab-content -->
+  </div>
+</section>
     <!-- banner -->
 
     <!-- //banner -->
