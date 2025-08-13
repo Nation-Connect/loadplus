@@ -314,6 +314,17 @@
   .brand-card{ height: 100px; padding:16px; }
 }
 
+/* Smooth anchor scroll & reserve space for the sticky navbar */
+html {
+  scroll-behavior: smooth;
+  /* fallback if JS isn't available; adjust the 88px if needed */
+  scroll-padding-top: 50px;
+}
+
+/* More precise per-section offset (works in all modern browsers) */
+section[id] {
+  scroll-margin-top: 50px; /* navbar height + a bit of breathing room */
+}
 
   </style>
 </head>
