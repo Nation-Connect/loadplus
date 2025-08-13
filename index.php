@@ -114,13 +114,19 @@
             <!-- Slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1600&auto=format&fit=crop" class="d-block w-100" alt="Modern warehouse">
+                <img src="./images/hero/hero-1.jpg" class="d-block w-100" alt="Modern warehouse">
                 </div>
                 <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1600&auto=format&fit=crop" class="d-block w-100" alt="Containers at port">
+                <img src="/images/hero/hero-2.jpg" class="d-block w-100" alt="Containers at port">
                 </div>
                 <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1586521995568-39a1b60d6c2a?q=80&w=1600&auto=format&fit=crop" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-3.avif" class="d-block w-100" alt="Logistics operations">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/hero/hero-4.jpg" class="d-block w-100" alt="Logistics operations">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/hero/hero-5.jpg" class="d-block w-100" alt="Logistics operations">
                 </div>
             </div>
             <!-- Arrows -->
@@ -585,13 +591,12 @@
             <script>
                 $(document).ready(function() {
                     $("#owl-demo").owlCarousel({
-                        items: 3,
+                        items: 5,
                         itemsDesktop: [768, 2],
                         itemsDesktopSmall: [414, 1],
                         lazyLoad: true,
                         autoPlay: true,
                         navigation: true,
-
                         navigationText: false,
                         pagination: true,
 
