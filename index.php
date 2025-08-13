@@ -222,7 +222,7 @@
         <div class="tab-pane fade show active" id="pane-warehousing" role="tabpanel" aria-labelledby="tab-warehousing" tabindex="0">
             <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <img src="images/service/Warehouse.jpg" alt="Warehousing" class="img-fluid rounded-14 shadow">
+                <img src="images/service/integrated-logistics.1.11.jpg" alt="Warehousing" class="img-fluid rounded-14 shadow">
             </div>
             <div class="col-md-6">
                 <h4 class="mb-2">Warehousing</h4>
@@ -239,7 +239,7 @@
         <div class="tab-pane fade" id="pane-lastmile" role="tabpanel" aria-labelledby="tab-lastmile" tabindex="0">
             <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <img src="images/service/lastmiledelivery.jpg" alt="Last Mile Delivery" class="img-fluid rounded-14 shadow">
+                <img src="images/service/Untangle-your-delivery-network-blog-1920x1280-1.png" alt="Last Mile Delivery" class="img-fluid rounded-14 shadow">
             </div>
             <div class="col-md-6">
                 <h4 class="mb-2">Last Mile Delivery</h4>
@@ -256,7 +256,7 @@
         <div class="tab-pane fade" id="pane-ftl" role="tabpanel" aria-labelledby="tab-ftl" tabindex="0">
             <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <img src="images/service/fulltruckload.png" alt="Full Truck Load (FTL)" class="img-fluid rounded-14 shadow">
+                <img src="images/service/Full-Truck-Load-1-1024x683.webp" alt="Full Truck Load (FTL)" class="img-fluid rounded-14 shadow">
             </div>
             <div class="col-md-6">
                 <h4 class="mb-2">Full Truck Load (FTL)</h4>
@@ -273,7 +273,7 @@
         <div class="tab-pane fade" id="pane-supplychain" role="tabpanel" aria-labelledby="tab-supplychain" tabindex="0">
             <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <img src="images/service/completesupplychain.png" alt="Complete Supply Chain Solutions Under One Roof" class="img-fluid rounded-14 shadow">
+                <img src="images/service/What-are-Supply-Chain-Solutions-ColtonCooper-Logistics.webp" alt="Complete Supply Chain Solutions Under One Roof" class="img-fluid rounded-14 shadow">
             </div>
             <div class="col-md-6">
                 <h4 class="mb-2">Complete Supply Chain Solutions Under One Roof</h4>
@@ -286,31 +286,31 @@
             </div>
         </div>
 
-    <!-- Global Trade Solutions -->
-    <div class="tab-pane fade" id="pane-globaltrade" role="tabpanel"
-        aria-labelledby="tab-globaltrade" tabindex="0">
-    <div class="row align-items-center g-4">
-        <div class="col-md-6">
-        <!-- Update the image path to your actual file -->
-        <img src="images/service/global-trade.jpg" alt="Global Trade Solutions"
-            class="img-fluid rounded-14 shadow">
+        <!-- Global Trade Solutions -->
+        <div class="tab-pane fade" id="pane-globaltrade" role="tabpanel"
+            aria-labelledby="tab-globaltrade" tabindex="0">
+        <div class="row align-items-center g-4">
+            <div class="col-md-6">
+            <!-- Update the image path to your actual file -->
+            <img src="images/service/vibrant-busy-cargo-port-with-ships-cranes-containers_212944-31933.jpg" alt="Global Trade Solutions"
+                class="img-fluid rounded-14 shadow">
+            </div>
+            <div class="col-md-6">
+            <h4 class="mb-2">Global Trade Solutions</h4>
+            <p>
+                Simplify cross-border shipping with end-to-end export–import support. We handle
+                documentation, customs, international freight, and last-mile delivery so your cargo
+                moves on time and in compliance.
+            </p>
+            <ul class="text-muted small list-unstyled mb-0">
+                <li>• CHA & customs clearance (import & export)</li>
+                <li>• Ocean & air freight with reliable transit options</li>
+                <li>• Incoterms guidance, duties & compliance support</li>
+                <li>• Door-to-door & multi-modal solutions worldwide</li>
+            </ul>
+            </div>
         </div>
-        <div class="col-md-6">
-        <h4 class="mb-2">Global Trade Solutions</h4>
-        <p>
-            Simplify cross-border shipping with end-to-end export–import support. We handle
-            documentation, customs, international freight, and last-mile delivery so your cargo
-            moves on time and in compliance.
-        </p>
-        <ul class="text-muted small list-unstyled mb-0">
-            <li>• CHA & customs clearance (import & export)</li>
-            <li>• Ocean & air freight with reliable transit options</li>
-            <li>• Incoterms guidance, duties & compliance support</li>
-            <li>• Door-to-door & multi-modal solutions worldwide</li>
-        </ul>
         </div>
-    </div>
-    </div>
 
 
         </div>
