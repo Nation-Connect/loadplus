@@ -600,7 +600,7 @@
                   <div class="help-block with-errors"></div>
                 </div>
                 <div class="col-12">
-                  <button type="submit" name="submit" class="btn btn-yellow w-100">Send Enquiry</button>
+                  <button type="submit" name="submit" class="btn btn-yellow w-100 submit-btn">Send Enquiry</button>
                 </div>
               </div>
               <div class="row">
@@ -880,11 +880,11 @@
                     $('#form-message-danger').hide();
                     var formValues = $(this).serialize();
                     $.post("mail-service.php", formValues, function(data) {
-                        $(".submit-btn").html("Submit");
+                        $(".submit-btn").html("Send Enquiry");
                         $(".submit-btn").prop('disabled', false);
                         if (data) {
                             $('#form-message-success').show().delay(5000).fadeOut(500);
-                            $("#contactForm")[0].reset();
+                            $("#contact-form")[0].reset();
                         } else {
                             $('#form-message-danger').show().delay(5000).fadeOut(500);
                         }
