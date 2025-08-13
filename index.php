@@ -554,8 +554,8 @@
     <div class="row g-5">
       <!-- Contact Info -->
       <div class="col-lg-6">
-        <h2 class="section-title mb-3 text-white">Get in Touch</h2>
-        <p class="mb-4">Tell us about your cargo, timelines, and any special handling. Our team will respond with a tailored plan.</p>
+        <h2 class="section-title mb-4 text-white">Get in Touch</h2>
+        <p class="mb-5">Tell us about your cargo, timelines, and any special handling. Our team will respond with a tailored plan.</p>
         <ul class="list-unstyled text-white">
           <!-- <li class="mb-2"><i class="bi bi-telephone me-2"></i> +91-00000-00000</li> -->
           <li class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@loadplus.in" class="text-white">contact@loadplus.in</a></li>
