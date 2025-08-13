@@ -32,6 +32,18 @@
     .navbar-brand img{ height:40px; object-fit:contain; }
     .navbar .nav-link{ color: var(--c-blue); font-weight:500; }
     .navbar .nav-link:hover{ color: var(--c-pink); }
+    /* Make logo bigger */
+.navbar-brand img {
+  height: 60px; /* increased from 40px */
+  object-fit: contain;
+}
+
+/* Adjust navbar so larger logo doesn’t look cramped */
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 
     /* Buttons */
     .btn-teal{ background:var(--c-teal); border-color:var(--c-teal); color:#05343a; font-weight:600; }
@@ -110,6 +122,13 @@
 
     /* Utilities */
     .rounded-14{ border-radius:14px; }
+
+    @media (max-width: 575.98px) {
+  .navbar-brand img {
+    height: 48px; /* slightly smaller on very small screens */
+  }
+}
+
   </style>
 </head>
 <body>
