@@ -143,6 +143,38 @@
         </div>
     </div>
     </header>
+
+    <!-- STATS (White bg, Pink numbers) -->
+    <section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+        <div class="col-6 col-lg-3">
+            <div class="p-4 stat-card text-center rounded-14">
+            <div class="stat-value h3 fw-bold mb-0">1.2M+</div>
+            <div class="text-muted">Sq.ft Storage</div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3">
+            <div class="p-4 stat-card text-center rounded-14">
+            <div class="stat-value h3 fw-bold mb-0">98.7%</div>
+            <div class="text-muted">On-time Dispatch</div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3">
+            <div class="p-4 stat-card text-center rounded-14">
+            <div class="stat-value h3 fw-bold mb-0">250+</div>
+            <div class="text-muted">Cities Served</div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3">
+            <div class="p-4 stat-card text-center rounded-14">
+            <div class="stat-value h3 fw-bold mb-0">5000+</div>
+            <div class="text-muted">TEU / year</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
     <!-- banner -->
 
     <!-- //banner -->
