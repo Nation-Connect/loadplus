@@ -145,36 +145,36 @@
     </header>
 
     <!-- STATS (White bg, Pink numbers) -->
-    <section class="py-5">
-    <div class="container">
-        <div class="row g-4">
-        <div class="col-6 col-lg-3">
-            <div class="p-4 stat-card text-center rounded-14">
-            <div class="stat-value h3 fw-bold mb-0">1.2M+</div>
-            <div class="text-muted">Sq.ft Storage</div>
-            </div>
+   <section class="py-5 bg-white">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-6 col-lg-3">
+        <div class="p-4 stat-card text-center rounded-14">
+          <div class="stat-value h3 fw-bold mb-0 counter" data-target="1200000" data-suffix="+">0</div>
+          <div class="text-muted">Sq.ft Storage</div>
         </div>
-        <div class="col-6 col-lg-3">
-            <div class="p-4 stat-card text-center rounded-14">
-            <div class="stat-value h3 fw-bold mb-0">98.7%</div>
-            <div class="text-muted">On-time Dispatch</div>
-            </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="p-4 stat-card text-center rounded-14">
+          <div class="stat-value h3 fw-bold mb-0 counter" data-target="98.7" data-decimals="1" data-suffix="%">0</div>
+          <div class="text-muted">On-time Dispatch</div>
         </div>
-        <div class="col-6 col-lg-3">
-            <div class="p-4 stat-card text-center rounded-14">
-            <div class="stat-value h3 fw-bold mb-0">250+</div>
-            <div class="text-muted">Cities Served</div>
-            </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="p-4 stat-card text-center rounded-14">
+          <div class="stat-value h3 fw-bold mb-0 counter" data-target="250" data-suffix="+">0</div>
+          <div class="text-muted">Cities Served</div>
         </div>
-        <div class="col-6 col-lg-3">
-            <div class="p-4 stat-card text-center rounded-14">
-            <div class="stat-value h3 fw-bold mb-0">5000+</div>
-            <div class="text-muted">TEU / year</div>
-            </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="p-4 stat-card text-center rounded-14">
+          <div class="stat-value h3 fw-bold mb-0 counter" data-target="5000" data-suffix="+">0</div>
+          <div class="text-muted">TEU / year</div>
         </div>
-        </div>
+      </div>
     </div>
-    </section>
+  </div>
+</section>
     <!-- banner -->
 
     <!-- //banner -->
@@ -704,6 +704,44 @@
       wrap: true
     });
   }
+
+  document.addEventListener("DOMContentLoaded", () => {
+  const counters = document.querySelectorAll(".counter");
+
+  const animateCounter = (el) => {
+    const target = parseFloat(el.getAttribute("data-target"));
+    const decimals = parseInt(el.getAttribute("data-decimals")) || 0;
+    const suffix = el.getAttribute("data-suffix") || "";
+    let current = 0;
+    const duration = 2000;
+    const stepTime = 16; // ~60fps
+    const steps = duration / stepTime;
+    const increment = target / steps;
+
+    const updateCounter = () => {
+      current += increment;
+      if (current >= target) {
+        el.textContent = target.toFixed(decimals) + suffix;
+      } else {
+        el.textContent = current.toFixed(decimals) + suffix;
+        requestAnimationFrame(updateCounter);
+      }
+    };
+
+    updateCounter();
+  };
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  counters.forEach(counter => observer.observe(counter));
+});
 </script>
 
 </body>
