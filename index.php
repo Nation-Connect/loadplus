@@ -6,7 +6,7 @@
     <title> India&#39;s leading Warehousing and Logistics Company | Loadplus Private Limited </title>
     <meta name='description' content="Loadplus Private Limited: India's Premier Warehousing & Logistics Provider. Serving a diverse clientele, we lead the B2B logistics and Warehousing industry." />
     <meta name="keywords" content="Loadplus Private Limited, warehousing, logistics, B2B logistics, fleet management, transport, B2B transport" />
-    <link href="images/favicon.jpeg" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="application/x-javascript">
         addEventListener("load", function() {
