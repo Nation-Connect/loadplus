@@ -622,145 +622,18 @@
   </div>
 </section>
 
-        <!-- about -->
-        <div class="about" id="contact">
-            <div class="container">
-                <div class="agileits-title">
-                    <div class="agileits-title-left">
-                        <h6>Write a message</h6>
-                        <h3 title="Contact">Contact</h3>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-left:0px;">
-                    <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left:0px;">
-                        <form id="contact-form" class="contact-form" action="#" role="form">
-                            <input type="hidden" name="send-contact-mail" />
-                            <div class="messages"></div>
+<!-- FOOTER (Deep blue + yellow links) -->
+<footer class="py-4">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+    <div class="d-flex align-items-center gap-2">
+      <img src="images/favicon.png" alt="LoadPlus" style="height:28px">
+      <span>&copy; <span id="year"></span> LoadPlus Logistics. All rights reserved.</span>
+    </div>
+    <!-- <div class="small">GST/IEC/CHA details available on request • ISO-compliant SOPs</div> -->
+  </div>
+</footer>
 
-                            <div class="controls">
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_name" Style="font-weight: 500; margin-bottom: 8px">Firstname *</label>
-                                            <input id="form_name" type="text" name="fname" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_lastname" Style="font-weight: 500; margin-bottom: 8px">Lastname *</label>
-                                            <input id="form_lastname" type="text" name="lname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_email" Style="font-weight: 500; margin-bottom: 8px">Email
-                                                *</label>
-                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_phone">Phone</label>
-                                            <input id="form_phone" type="tel" name="mobile" class="form-control" placeholder="Please enter your phone">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="form_message" Style="font-weight: 500; margin-bottom: 8px">Message *</label>
-                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="submit" name="submit" class="btn btn-success btn-send" style="background: #e21837 !important; border: 1px solid #e21837 !important " value="Send message">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div id="form-message-success" style="display:none;font-size:20px;margin-top:10px;" class="mb-4 text-center text-success">
-                                            Your message was sent, Thank you!
-                                        </div>
-                                        <div id="form-message-danger" style="display:none;font-size:20px;margin-top:10px;" class="mb-4 text-center text-danger">
-                                            Something went wrong!, please try again.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </form>
-
-
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left:20px;">
-                        <h4>Address:</h4>
-
-
-
-
-                        <p>D 17/675 S/f , Gali No-4,<br />
-                            Ganesh Nagar Ii Shakarpur,<br />
-                            East Delhi, New Delhi, India, 110092
-
-                            .<br />
-
-                            e-mail: contact@loadplus.in<br />
-                        </p>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <footer>
+            <!-- <footer>
                 <div class="footer-w3layouts">
                     <div class="copyright-wthree">
                         <p>&copy; <?php echo date("Y"); ?> Loadplus Private Limited . All Rights Reserved</p>
@@ -770,7 +643,7 @@
                         <div class="clearfix"></div>
                     </div>
                 </div>
-            </footer>
+            </footer> -->
             <!-- //Footer -->
             <!-- js -->
             <script src="js/jquery-2.2.3.min.js"></script><!-- //js -->
