@@ -557,7 +557,7 @@
         <h2 class="section-title mb-3 text-white">Get in Touch</h2>
         <p class="mb-4">Tell us about your cargo, timelines, and any special handling. Our team will respond with a tailored plan.</p>
         <ul class="list-unstyled text-white">
-          <li class="mb-2"><i class="bi bi-telephone me-2"></i> +91-00000-00000</li>
+          <!-- <li class="mb-2"><i class="bi bi-telephone me-2"></i> +91-00000-00000</li> -->
           <li class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@loadplus.in" class="text-white">contact@loadplus.in</a></li>
           <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> D-17/675, Second Floor, Gali No. 4, Ganesh Nagar II, Shakarpur, East Delhi, New Delhi – 110092, India</li>
         </ul>
