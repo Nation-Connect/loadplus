@@ -357,7 +357,7 @@
     <div class="row g-5 align-items-center">
       <div class="col-lg-6">
         <img class="img-fluid rounded-14 shadow"
-             src="https://images.unsplash.com/photo-1586521995568-39a1b60d6c2a?q=80&w=1600&auto=format&fit=crop"
+             src="./images/corporate-logistic-team-walking-together-container-warehouse-group-staff-employee-following-foreman-leader_968529-273188.jpg"
              alt="LoadPlus team managing warehousing and export-import operations">
       </div>
 
