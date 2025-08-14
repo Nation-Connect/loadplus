@@ -397,7 +397,7 @@
           <p class="card-text text-muted">
             Eco-friendly bricks with uniform shape and strength—ideal for sustainable, cost-effective construction.
           </p>
-          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalBricks">Read more</button>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalFlyAshBricks">Read more</button>
         </div>
       </div>
 
@@ -770,7 +770,6 @@
   </div>
 </div>
 
-
 <!-- Ultra Fine Fly Ash Modal -->
 <div class="modal fade product-modal" id="modalUltraFineFlyAsh" tabindex="-1" aria-labelledby="modalUltraFineFlyAshLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
@@ -952,7 +951,86 @@
 
       <!-- Modal Footer -->
       <div class="modal-footer">
-        <a class="btn btn-site" href="https://www.ashtechindia.net/ultra-fine-fly-ash/" target="_blank" rel="noopener">Source page</a>
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Fly Ash Bricks — Modal -->
+<div class="modal fade product-modal" id="modalFlyAshBricks" tabindex="-1" aria-labelledby="modalFlyAshBricksLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalFlyAshBricksLabel">
+          <span class="badge rounded-pill">Product</span> Fly Ash Bricks — Details
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Overview -->
+        <div class="lead-block">
+          <h6>What are Fly Ash Bricks</h6>
+          <p class="mb-0">
+            Fly ash bricks are advanced, high-quality bricks used for construction of brick masonry structures. 
+            They are used as a replacement for normal clay bricks, offering better properties. Fly ash bricks are 
+            competitive in comparison to the conventional clay bricks and deliver significant indirect advantages. 
+            Their use contributes to the conservation of natural resources and environmental protection.
+          </p>
+        </div>
+
+        <!-- Specs + Advantages -->
+        <div class="columns">
+          <!-- Specifications -->
+          <div class="lead-block">
+            <h6>Specification</h6>
+            <div class="table-responsive">
+              <table class="table align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th style="width:60%">Product Details</th>
+                    <th class="text-nowrap">DIMENSIONS (mm)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fly Ash Bricks</td>
+                    <td>230 × 150 × 100</td>
+                  </tr>
+                  <tr>
+                    <td>Fly Ash Bricks</td>
+                    <td>230 × 150 × 100</td>
+                  </tr>
+                  <tr>
+                    <td>Fly Ash Bricks</td>
+                    <td>230 × 150 × 100</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Advantages -->
+          <div class="lead-block">
+            <h6>Advantages</h6>
+            <ul class="bullet-list">
+              <li><span class="bullet-dot"></span><span>Environmentally Friendly</span></li>
+              <li><span class="bullet-dot"></span><span>Cost-effective</span></li>
+              <li><span class="bullet-dot"></span><span>Energy Efficient</span></li>
+              <li><span class="bullet-dot"></span><span>Good Insulation</span></li>
+              <li><span class="bullet-dot"></span><span>Lightweight</span></li>
+              <li><span class="bullet-dot"></span><span>Compressive Strength</span></li>
+              <li><span class="bullet-dot"></span><span>Fire Resistant</span></li>
+              <li><span class="bullet-dot"></span><span>Sound Insulation</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
         <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
       </div>
 
