@@ -681,6 +681,7 @@ section[id] {
   display: grid;
   grid-template-columns: 280px 1fr;
   gap: 1.25rem;
+  padding: 1rem 1.1rem;
   margin: 0 0 1rem;
   border-radius: 14px;
   background:
@@ -694,7 +695,6 @@ section[id] {
   background:#fff;
   border:1px solid rgba(0,0,0,.06);
   border-radius:14px;
-  padding: .9rem;
   box-shadow: 0 10px 24px rgba(14,43,56,.10);
   display:flex; align-items:center; justify-content:center;
 }
