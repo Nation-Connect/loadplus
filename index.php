@@ -794,14 +794,23 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
-      <div class="text-center py-2">
-        <img 
-            src="./images/ultrafineflyash.png" 
-            alt="Loadplus PVT. LTD. Logo" 
-            style="max-height: 70px; width: auto;"
-        >
-        <h6 class="mt-2 mb-0">Loadplus PVT. LTD.</h6>
-        </div>
+      <!-- Brand bar -->
+<div class="brand-bar">
+  <div class="brand-media">
+    <img
+      src="./images/ultrafineflyash.png" 
+      alt="Loadplus LP500 Ultrafine Fly Ash"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="brand-meta">
+    <div class="brand-name">Loadplus PVT. LTD.</div>
+    <div class="brand-sub">Ultra Fine Fly Ash (LP500)</div>
+  </div>
+</div>
+
+<hr class="brand-divider">
 
       <!-- Modal Body -->
       <div class="modal-body">
