@@ -190,7 +190,7 @@
     <ul class="nav nav-pills justify-content-center mb-4" id="servicesTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="tab-warehousing" data-bs-toggle="pill" data-bs-target="#pane-warehousing" type="button" role="tab" aria-controls="pane-warehousing" aria-selected="true">
-          Warehousing
+          Warehousing Management
         </button>
       </li>
       <li class="nav-item" role="presentation">
@@ -229,7 +229,7 @@
             </div>
             <div class="col-lg-6">
               <div class="service-body">
-                <h4 class="service-title">Warehousing</h4>
+                <h4 class="service-title">Warehousing Management</h4>
                 <p class="service-lead">
                   LoadPlus Pvt. Ltd. delivers secure, scalable storage with bonded/non-bonded options, WMS visibility, and SOP-driven operations across Pan-India locations.
                 </p>
