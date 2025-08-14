@@ -369,6 +369,7 @@
           <p class="card-text text-muted">
             Consistent, quality fly ash for cement and concrete—improves workability, durability, and long-term strength.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalFlyAsh">Read more</button>
         </div>
       </div>
 
@@ -382,6 +383,7 @@
           <p class="card-text text-muted">
             Micronized ash for high-performance mixes—low permeability, dense matrices, and premium finish.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalUFFA">Read more</button>
         </div>
       </div>
 
@@ -395,6 +397,7 @@
           <p class="card-text text-muted">
             Eco-friendly bricks with uniform shape and strength—ideal for sustainable, cost-effective construction.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalBricks">Read more</button>
         </div>
       </div>
 
@@ -408,6 +411,7 @@
           <p class="card-text text-muted">
             Ultra-light, inert, hollow ceramic microspheres from fly ash. Used to reduce weight and thermal conductivity in cement, polymers, coatings, and composites—without sacrificing strength.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalCenosphere">Read more</button>
         </div>
       </div>
 

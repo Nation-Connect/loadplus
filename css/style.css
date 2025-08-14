@@ -466,3 +466,12 @@ html {
 section[id] {
   scroll-margin-top: 50px; /* navbar height + a bit of breathing room */
 }
+
+#products .card.h-100 {
+  display: flex;
+  flex-direction: column;
+}
+
+#products .card .card-text {
+  flex-grow: 1; /* Pushes the button down */
+}

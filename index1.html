@@ -357,6 +357,16 @@ section[id] {
   scroll-margin-top: 50px; /* navbar height + a bit of breathing room */
 }
 
+#products .card.h-100 {
+  display: flex;
+  flex-direction: column;
+}
+
+#products .card .card-text {
+  flex-grow: 1; /* Pushes the button down */
+}
+
+
   </style>
 </head>
 <body>
@@ -654,6 +664,7 @@ section[id] {
           <p class="card-text text-muted">
             Consistent, quality fly ash for cement and concrete—improves workability, durability, and long-term strength.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalFlyAsh">Read more</button>
         </div>
       </div>
 
@@ -667,6 +678,7 @@ section[id] {
           <p class="card-text text-muted">
             Micronized ash for high-performance mixes—low permeability, dense matrices, and premium finish.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalUFFA">Read more</button>
         </div>
       </div>
 
@@ -680,6 +692,7 @@ section[id] {
           <p class="card-text text-muted">
             Eco-friendly bricks with uniform shape and strength—ideal for sustainable, cost-effective construction.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalBricks">Read more</button>
         </div>
       </div>
 
@@ -693,6 +706,7 @@ section[id] {
           <p class="card-text text-muted">
             Ultra-light, inert, hollow ceramic microspheres from fly ash. Used to reduce weight and thermal conductivity in cement, polymers, coatings, and composites—without sacrificing strength.
           </p>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalCenosphere">Read more</button>
         </div>
       </div>
 
@@ -827,26 +841,7 @@ section[id] {
 
       <!-- Add more logos here in set A ... -->
 
-      <!-- === DUPLICATE SET (B) for seamless loop (keep identical to A) === -->
-      <figure class="brand-card" aria-label="RSPL">
-        <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/5/51/RSPL_logo.png" alt="RSPL logo">
-      </figure>
-
-      <figure class="brand-card" aria-label="BigBasket">
-        <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/0/0d/BigBasket_Logo.png" alt="BigBasket logo">
-      </figure>
-
-      <figure class="brand-card" aria-label="Delhivery">
-        <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Delhivery_Logo.png" alt="Delhivery logo">
-      </figure>
-
-      <figure class="brand-card" aria-label="Flipkart">
-        <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Flipkart_logo.png" alt="Flipkart logo">
-      </figure>
+      
 
       <!-- Duplicate any extra logos you add above as well -->
     </div>
@@ -914,6 +909,95 @@ section[id] {
     </div>
   </div>
 </section>
+
+
+
+
+
+<!-- Fly Ash — Modal -->
+<div class="modal fade" id="modalFlyAsh" tabindex="-1" aria-labelledby="modalFlyAshLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-14">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalFlyAshLabel">Fly Ash — Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-2">Pozzolanic material used to enhance concrete workability, reduce heat of hydration, and improve long-term strength and durability.</p>
+        <ul class="mb-3">
+          <li>Improves pumpability, finish, and cohesiveness of fresh concrete</li>
+          <li>Lower permeability and better sulfate/ASR resistance</li>
+          <li>Can reduce cement consumption and embodied CO₂</li>
+        </ul>
+        <a class="btn btn-outline-secondary" href="https://www.ashtechindia.net/fly-ash/" target="_blank" rel="noopener">Learn more on Ashtech</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ultra Fine Fly Ash — Modal -->
+<div class="modal fade" id="modalUFFA" tabindex="-1" aria-labelledby="modalUFFALabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-14">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalUFFALabel">Ultra Fine Fly Ash — Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-2">Micronized fly ash for high-performance mixes requiring dense microstructure and low permeability.</p>
+        <ul class="mb-3">
+          <li>Enhanced packing density and improved finish</li>
+          <li>Great for high-strength, low-w/c, and precast applications</li>
+          <li>Improves durability indices (RCPT, water absorption)</li>
+        </ul>
+        <a class="btn btn-outline-secondary" href="https://www.ashtechindia.net/ultra-fine-fly-ash/" target="_blank" rel="noopener">Learn more on Ashtech</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fly Ash Bricks — Modal -->
+<div class="modal fade" id="modalBricks" tabindex="-1" aria-labelledby="modalBricksLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-14">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBricksLabel">Fly Ash Bricks — Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-2">Dimensionally accurate, eco-friendly masonry units with consistent strength and smooth finish.</p>
+        <ul class="mb-3">
+          <li>Low water absorption and uniform shape</li>
+          <li>Good thermal and sound insulation properties</li>
+          <li>Faster masonry with reduced plaster consumption</li>
+        </ul>
+        <a class="btn btn-outline-secondary" href="https://www.ashtechindia.net/fly-ash-bricks/" target="_blank" rel="noopener">Learn more on Ashtech</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cenosphere — Modal -->
+<div class="modal fade" id="modalCenosphere" tabindex="-1" aria-labelledby="modalCenosphereLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-14">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCenosphereLabel">Cenosphere — Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-2">Lightweight, inert, hollow spheres (mostly silica & alumina) used to reduce density and thermal conductivity in cement, polymers, coatings, and composites.</p>
+        <ul class="mb-3">
+          <li>Typical bulk density ~0.4–0.8 g/cm³</li>
+          <li>Improves flow, reduces shrinkage, lowers resin use</li>
+          <li>Enhances thermal and acoustic insulation</li>
+        </ul>
+        <a class="btn btn-outline-secondary" href="https://www.ashtechindia.net/cenospheres/" target="_blank" rel="noopener">Learn more on Ashtech</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <!-- FOOTER (Deep blue + yellow links) -->
