@@ -1102,7 +1102,6 @@
               <li><span class="bullet-dot"></span><span>State-of-the-art Cenospheres processing unit. Skilled technical staff.</span></li>
               <li><span class="bullet-dot"></span><span>Quality assurance plan and quality check at all stages.</span></li>
               <li><span class="bullet-dot"></span><span>Well-equipped laboratory &amp; in-house testing facilities.</span></li>
-              <li><span class="bullet-dot"></span><span>India’s largest exporters of FLY ASH.</span></li>
               <li><span class="bullet-dot"></span><span>LOI &lt; 1%, Moisture &lt; 0.5%.</span></li>
             </ul>
           </div>
