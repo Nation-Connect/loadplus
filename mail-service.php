@@ -25,14 +25,14 @@
         $mail->isSMTP();                                            // Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'operations@loadplus.in';                     // SMTP username
-        $mail->Password   = 'vksyzapldpsllngm';                               // SMTP password
+        $mail->Username   = 'aman@loadplus.in';                     // SMTP username
+        $mail->Password   = 'ienyswxklwrcxqhy';                               // SMTP password
         $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
         $mail->Port       = 587;                                    // TCP port to connect to
     
         //Recipients
-        $mail->setFrom('operations@loadplus.in', 'Loadplus');
-        $mail->addAddress("contact@loadplus.in", "Loadplus");     // Add a recipient
+        $mail->setFrom('aman@loadplus.in', 'Loadplus');
+        $mail->addAddress("operations@loadplus.in", "Loadplus");     // Add a recipient
         $mail->addReplyTo($email, $fname);
     
         // Attachments
