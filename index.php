@@ -794,6 +794,15 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
+      <div class="text-center py-2">
+        <img 
+            src="./images/ultrafineflyash.png" 
+            alt="Loadplus PVT. LTD. Logo" 
+            style="max-height: 70px; width: auto;"
+        >
+        <h6 class="mt-2 mb-0">Loadplus PVT. LTD.</h6>
+        </div>
+
       <!-- Modal Body -->
       <div class="modal-body">
         <div class="pills-tray">
