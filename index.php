@@ -503,47 +503,63 @@
 </section>
 
 <!-- GALLERY (Very light teal tint) -->
-<section id="clients" class="clients py-5">
+ <section id="clients" class="clients brand-scroller">
   <div class="container">
     <h2 class="section-title text-center mb-2">Our Prestigious Clients</h2>
     <p class="clients-subtitle text-center">
       We are proud to partner with respected brands that trust LoadPlus for warehousing,
       transportation, and import–export logistics.
     </p>
+  </div>
 
-    <div class="brand-grid">
-      <!-- RSPL -->
+  <!-- The scrolling strip lives outside the fixed-width container to span full width -->
+  <div class="mask">
+    <div class="brand-track" id="brandTrack">
+      <!-- === ORIGINAL SET (A) === -->
       <figure class="brand-card" aria-label="RSPL">
         <img class="brand-logo" loading="lazy"
-             src="./images/customer/rspl.png"
-             alt="RSPL logo">
+             src="./images/customer/rspl.png" alt="RSPL logo">
       </figure>
 
-      <!-- BigBasket -->
-      <figure class="brand-card" aria-label="BigBasket">
-        <img class="brand-logo" loading="lazy"
-             src="./images/customer/bigbasket.png"
-             alt="BigBasket logo">
-      </figure>
-
-      <!-- Delhivery -->
       <figure class="brand-card" aria-label="Delhivery">
         <img class="brand-logo" loading="lazy"
-             src="./images/customer/delhivery.png"
-             alt="Delhivery logo">
+             src="./images/customer/delhivery.png" alt="Delhivery logo">
       </figure>
 
-      <!-- Flipkart -->
       <figure class="brand-card" aria-label="Flipkart">
         <img class="brand-logo" loading="lazy"
-             src="./images/customer/flipkart.png"
-             alt="Flipkart logo">
+             src="./images/customer/flipkart.png" alt="Flipkart logo">
       </figure>
 
-      <!-- Add more logos the same way -->
-      <!--
-      <figure class="brand-card"><img class="brand-logo" loading="lazy" src="..." alt="Client name"></figure>
-      -->
+      <figure class="brand-card" aria-label="Adani Power">
+        <img class="brand-logo" loading="lazy"
+             src="./images/customer/adanipower.png" alt="Adani Power logo">
+      </figure>
+
+      <figure class="brand-card" aria-label="Jio Mart">
+        <img class="brand-logo" loading="lazy"
+             src="./images/customer/jiomart-logo.png" alt="Jio Martlogo">
+      </figure>
+
+      <figure class="brand-card" aria-label="CK Birla Group">
+        <img class="brand-logo" loading="lazy"
+             src="./images/customer/ckbirlagroup.png" alt="CK Birla Group logo">
+      </figure>
+
+      <figure class="brand-card" aria-label="Ambuja Cements">
+         <img class="brand-logo" loading="lazy"
+             src="./images/customer/ambuja-cements.png" alt="Ambuja Cements logo">
+      </figure>
+
+      <figure class="brand-card" aria-label="Stanza Living">
+         <img class="brand-logo" loading="lazy"
+             src="./images/customer/stanza-logo.png" alt="Stanza Living logo">
+      </figure>
+
+      <figure class="brand-card" aria-label="Godrej Agrovet">
+         <img class="brand-logo" loading="lazy"
+             src="./images/customer/godrejagrovetltd.png" alt="Godrej Agrovet logo">
+      </figure>
     </div>
   </div>
 </section>

@@ -277,42 +277,73 @@
   max-width: 720px; margin: 0 auto 1.5rem; color:#648195;
 }
 
-.brand-grid{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 1rem;
+/* ==== Auto-scrolling brand strip ==== */
+.brand-scroller {
+  --speed: 28s;                 /* slower = bigger number */
+  position: relative;
+  overflow: hidden;
+  background: var(--tint-teal);
+  padding-block: 2rem;
 }
 
-.brand-card{
-  background:#fff;
-  border:1px solid rgba(0,0,0,.06);
-  border-radius:16px;
+.brand-scroller .mask {
+  /* nice fade at the edges */
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+          mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.brand-track {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: max-content;
+  animation: slide var(--speed) linear infinite;
+}
+
+.brand-track:hover { animation-play-state: paused; }
+
+/* Each card keeps your existing style */
+.brand-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 16px;
   padding: 20px 22px;
   height: 120px;
-  display:flex; align-items:center; justify-content:center;
+  width: 220px;                /* fixed width = consistent speed */
+  display: flex; align-items: center; justify-content: center;
   box-shadow: 0 8px 22px rgba(14,43,56,.08);
   transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
-
-.brand-card:hover{
+.brand-card:hover {
   transform: translateY(-3px);
   border-color: rgba(35,141,150,.35);
   box-shadow: 0 14px 28px rgba(14,43,56,.12);
 }
 
-.brand-logo{
-  width:100%; height:100%;
-  object-fit: contain; object-position:center;
+.brand-logo {
+  width: 100%; height: 100%;
+  object-fit: contain; object-position: center;
   filter: grayscale(40%) contrast(1.05);
   transition: filter .18s ease;
 }
+.brand-card:hover .brand-logo { filter: none; }
 
-.brand-card:hover .brand-logo{ filter:none; }
-
-/* small screens */
-@media (max-width: 575.98px){
-  .brand-card{ height: 100px; padding:16px; }
+/* animation */
+@keyframes slide {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); } /* we’ll duplicate content so 50% loops seamlessly */
 }
+
+/* Smaller on phones */
+@media (max-width: 575.98px) {
+  .brand-card { height: 100px; width: 180px; padding: 16px; }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .brand-track { animation: none; }
+}
+
 
 /* Smooth anchor scroll & reserve space for the sticky navbar */
 html {
@@ -761,50 +792,67 @@ section[id] {
 
 
 <!-- GALLERY (Very light teal tint) -->
-<section id="clients" class="clients py-5">
+<section id="clients" class="clients brand-scroller">
   <div class="container">
     <h2 class="section-title text-center mb-2">Our Prestigious Clients</h2>
     <p class="clients-subtitle text-center">
       We are proud to partner with respected brands that trust LoadPlus for warehousing,
       transportation, and import–export logistics.
     </p>
+  </div>
 
-    <div class="brand-grid">
-      <!-- RSPL -->
+  <!-- The scrolling strip lives outside the fixed-width container to span full width -->
+  <div class="mask">
+    <div class="brand-track" id="brandTrack">
+      <!-- === ORIGINAL SET (A) === -->
       <figure class="brand-card" aria-label="RSPL">
         <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/5/51/RSPL_logo.png"
-             alt="RSPL logo">
+             src="https://upload.wikimedia.org/wikipedia/commons/5/51/RSPL_logo.png" alt="RSPL logo">
       </figure>
 
-      <!-- BigBasket -->
       <figure class="brand-card" aria-label="BigBasket">
         <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/0/0d/BigBasket_Logo.png"
-             alt="BigBasket logo">
+             src="https://upload.wikimedia.org/wikipedia/commons/0/0d/BigBasket_Logo.png" alt="BigBasket logo">
       </figure>
 
-      <!-- Delhivery -->
       <figure class="brand-card" aria-label="Delhivery">
         <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Delhivery_Logo.png"
-             alt="Delhivery logo">
+             src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Delhivery_Logo.png" alt="Delhivery logo">
       </figure>
 
-      <!-- Flipkart -->
       <figure class="brand-card" aria-label="Flipkart">
         <img class="brand-logo" loading="lazy"
-             src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Flipkart_logo.png"
-             alt="Flipkart logo">
+             src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Flipkart_logo.png" alt="Flipkart logo">
       </figure>
 
-      <!-- Add more logos the same way -->
-      <!--
-      <figure class="brand-card"><img class="brand-logo" loading="lazy" src="..." alt="Client name"></figure>
-      -->
+      <!-- Add more logos here in set A ... -->
+
+      <!-- === DUPLICATE SET (B) for seamless loop (keep identical to A) === -->
+      <figure class="brand-card" aria-label="RSPL">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/5/51/RSPL_logo.png" alt="RSPL logo">
+      </figure>
+
+      <figure class="brand-card" aria-label="BigBasket">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/0/0d/BigBasket_Logo.png" alt="BigBasket logo">
+      </figure>
+
+      <figure class="brand-card" aria-label="Delhivery">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Delhivery_Logo.png" alt="Delhivery logo">
+      </figure>
+
+      <figure class="brand-card" aria-label="Flipkart">
+        <img class="brand-logo" loading="lazy"
+             src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Flipkart_logo.png" alt="Flipkart logo">
+      </figure>
+
+      <!-- Duplicate any extra logos you add above as well -->
     </div>
   </div>
 </section>
+
 
 
 
