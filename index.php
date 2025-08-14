@@ -585,7 +585,7 @@
         <ul class="list-unstyled text-white">
           <!-- <li class="mb-2"><i class="bi bi-telephone me-2"></i> +91-00000-00000</li> -->
           <li class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@loadplus.in" class="text-white">operations@loadplus.in</a></li>
-          <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> Office On D-32, Second Floor, Laxmi Nagar, Delhi - 110092</li>
+          <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> Office On<br> D-32, Second Floor, Laxmi Nagar, Delhi - 110092</li>
         </ul>
       </div>
 
