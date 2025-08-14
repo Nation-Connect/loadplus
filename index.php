@@ -114,6 +114,7 @@
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 5"></button>
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5" aria-label="Slide 7"></button>
             </div>
             <!-- Slides -->
             <div class="carousel-inner">
@@ -124,13 +125,16 @@
                 <img src="/images/hero/hero-2.jpg" class="d-block w-100" alt="Containers at port">
                 </div>
                 <div class="carousel-item">
-                <img src="/images/hero/hero-3.avif" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-4.avif" class="d-block w-100" alt="Logistics operations">
                 </div>
                 <div class="carousel-item">
-                <img src="/images/hero/hero-4.jpg" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-6.jpg" class="d-block w-100" alt="Logistics operations">
                 </div>
                 <div class="carousel-item">
-                <img src="/images/hero/hero-5.jpg" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-7.jpg" class="d-block w-100" alt="Logistics operations">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/hero/hero-8.jpg" class="d-block w-100" alt="Logistics operations">
                 </div>
             </div>
             <!-- Arrows -->
