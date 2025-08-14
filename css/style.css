@@ -676,48 +676,33 @@ section[id] {
   .product-modal .columns{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
 }
 
-/* --- Brand bar polish --- */
-.product-modal .brand-bar{
-  display:flex; align-items:center; justify-content:center;
-  gap:1rem; padding:.75rem 1rem 0;
+/* Make product image bigger & centered */
+.product-modal .brand-media {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 14px;
+  padding: 0.75rem;
+  box-shadow: 0 8px 20px rgba(14, 43, 56, 0.08);
+  width: 220px; /* bigger */
+  min-width: 220px;
 }
 
-.product-modal .brand-media{
-  background:#fff; border:1px solid rgba(0,0,0,.06);
-  border-radius:14px; padding:.5rem;
-  box-shadow:0 8px 20px rgba(14,43,56,.08);
-  width:160px; min-width:160px; /* keeps image crisp on big screens */
-}
-.product-modal .brand-media img{
-  display:block; width:100%; height:120px; object-fit:contain; object-position:center;
-  filter: saturate(1.05) contrast(1.02);
+.product-modal .brand-media img {
+  display: block;
+  width: 100%;
+  height: 180px; /* increased from ~120px */
+  object-fit: contain;
+  object-position: center;
 }
 
-.product-modal .brand-meta{ text-align:left; }
-.product-modal .brand-name{
-  font-weight:800; letter-spacing:.2px; color:#3D586B; font-size:1.1rem; line-height:1.15;
-}
-.product-modal .brand-sub{
-  color:#5a7686; font-weight:600; margin-top:.15rem;
-}
-
-/* subtle divider under the bar */
-.product-modal .brand-divider{
-  border:0; height:1px; margin:.75rem 0 0;
-  background:linear-gradient(90deg, rgba(0,0,0,.06), rgba(0,0,0,.02), rgba(0,0,0,.06));
-}
-
-/* Responsive tweaks */
-@media (min-width: 992px){
-  .product-modal .brand-bar{ gap:1.25rem; }
-  .product-modal .brand-media{ width:180px; min-width:180px; padding:.65rem; }
-  .product-modal .brand-media img{ height:130px; }
-  .product-modal .brand-name{ font-size:1.2rem; }
-}
-@media (max-width: 576px){
-  .product-modal .brand-bar{ flex-direction:column; text-align:center; }
-  .product-modal .brand-meta{ text-align:center; }
-  .product-modal .brand-media{ width:150px; min-width:150px; }
-  .product-modal .brand-media img{ height:110px; }
+@media (min-width: 992px) {
+  .product-modal .brand-media {
+    width: 250px; /* even bigger on desktop */
+    min-width: 250px;
+    padding: 1rem;
+  }
+  .product-modal .brand-media img {
+    height: 200px;
+  }
 }
 
