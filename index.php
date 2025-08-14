@@ -383,7 +383,7 @@
           <p class="card-text text-muted">
             Micronized ash for high-performance mixes—low permeability, dense matrices, and premium finish.
           </p>
-          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalUFFA">Read more</button>
+          <button class="btn btn-teal mt-2" data-bs-toggle="modal" data-bs-target="#modalUltraFineFlyAsh">Read more</button>
         </div>
       </div>
 
