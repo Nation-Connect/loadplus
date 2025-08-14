@@ -794,21 +794,24 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
-      <!-- Brand bar -->
-<div class="brand-bar">
+      <!-- Brand hero (put this at the TOP of .modal-body, before the pills) -->
+<div class="brand-hero">
   <div class="brand-media">
-    <img
-      src="./images/ultrafineflyash.png" 
-      alt="Loadplus LP500 Ultrafine Fly Ash"
-      loading="lazy"
-    />
+    <img src="./images/ultrafineflyash.png" alt="Loadplus LP500 Ultrafine Fly Ash bag">
   </div>
 
   <div class="brand-meta">
-    <div class="brand-name">Loadplus PVT. LTD.</div>
-    <div class="brand-sub">Ultra Fine Fly Ash (LP500)</div>
+    <h4 class="brand-title">Loadplus PVT. LTD.</h4>
+    <div class="brand-sub">Ultra Fine Fly Ash <span class="muted">(LP500)</span></div>
+
+    <ul class="brand-highlights">
+      <li>High-reactivity, ultra-fine spherical particles</li>
+      <li>Improved workability & lower permeability</li>
+      <li>Optimized for durable, high-performance concrete</li>
+    </ul>
   </div>
 </div>
+
 
 <hr class="brand-divider">
 
