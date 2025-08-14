@@ -801,7 +801,6 @@
   </div>
 
   <div class="brand-meta">
-    <h4 class="brand-title">Loadplus PVT. LTD.</h4>
     <div class="brand-sub">Ultra Fine Fly Ash <span class="muted">(LP500)</span></div>
 
     <ul class="brand-highlights">
