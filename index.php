@@ -199,8 +199,8 @@
         </button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="tab-ftl" data-bs-toggle="pill" data-bs-target="#pane-ftl" type="button" role="tab" aria-controls="pane-ftl" aria-selected="false">
-          Full Truck Load
+        <button class="nav-link" id="tab-ftl" data-bs-toggle="pill" data-bs-target="#pane-bulk" type="button" role="tab" aria-controls="pane-ftl" aria-selected="false">
+         Bulk Load Transportation
         </button>
       </li>
       <li class="nav-item" role="presentation">
@@ -270,25 +270,26 @@
         </div>
       </div>
 
-      <!-- Full Truck Load -->
-      <div class="tab-pane fade" id="pane-ftl" role="tabpanel" aria-labelledby="tab-ftl" tabindex="0">
+      <!-- Bulk Load Transportation -->
+      <div class="tab-pane fade" id="pane-bulk" role="tabpanel" aria-labelledby="tab-bulk" tabindex="0">
         <div class="service-card">
           <div class="row g-0 align-items-center">
             <div class="col-lg-6">
               <div class="service-media">
-                <img src="images/service/Full-Truck-Load-1-1024x683.webp" alt="Full Truck Load (FTL)">
+                <!-- Replace the src attribute with your actual image path -->
+                <img src="images/service/Grain-truck_Photo-cred-Adobestock_E1.jpg" alt="Bulk Load Transportation">
               </div>
             </div>
             <div class="col-lg-6">
               <div class="service-body">
-                <h4 class="service-title">Full Truck Load (FTL)</h4>
+                <h4 class="service-title">Bulk Load Transportation</h4>
                 <p class="service-lead">
-                  End-to-end FTL with route planning, secured transit, and network reliability to cut dwell time and reduce landed cost.
+                  Comprehensive bulk logistics solutions for large-volume shipments—optimized loading, safe handling, and scheduled delivery to meet large-scale project demands.
                 </p>
                 <ul class="service-bullets">
-                  <li><i class="bi bi-arrows-move"></i><span>Pan-India lanes & express options</span></li>
-                  <li><i class="bi bi-thermometer-half"></i><span>Dry & temperature-controlled</span></li>
-                  <li><i class="bi bi-shield-lock"></i><span>GPS, e-locks & in-transit insurance</span></li>
+                  <li><i class="bi bi-truck"></i><span>Specialized bulk carriers for dry and densified materials</span></li>
+                  <li><i class="bi bi-clock-history"></i><span>Just-in-time delivery to minimize storage & inventory costs</span></li>
+                  <li><i class="bi bi-shield-fill"></i><span>Secured bulk hoppers, real-time tracking & bulk insurance coverage</span></li>
                 </ul>
               </div>
             </div>
