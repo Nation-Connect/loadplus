@@ -682,7 +682,7 @@ section[id] {
   grid-template-columns: 280px 1fr;
   gap: 1.25rem;
   padding: 1rem 1.1rem;
-  margin: 0 0 1rem;
+  margin: 1rem;
   border-radius: 14px;
   background:
     linear-gradient(180deg, rgba(92,197,208,.06), rgba(92,197,208,.03));
