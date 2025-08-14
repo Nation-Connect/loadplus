@@ -609,3 +609,69 @@ section[id] {
 .product-modal .modal-header { padding: .75rem 1rem; }
 .product-modal .modal-title { margin: 0; display: flex; align-items: center; gap: .5rem; }
 .product-modal .modal-title .badge { background: var(--c-teal); color: #05343a; font-weight: 700; }
+
+/* ------------ Better pills for product-modal-ultra ------------ */
+.product-modal .nav-pills {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;                 /* wrap on wide screens */
+  margin-bottom: 1rem;
+}
+
+/* Scrollable row on narrow screens */
+@media (max-width: 640px){
+  .product-modal .nav-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .product-modal .nav-pills::-webkit-scrollbar{ display:none; }
+}
+
+/* Base pill */
+.product-modal .nav-pills .nav-link{
+  border-radius: 999px;
+  padding: .55rem 1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--c-blue);
+  background: #f6fbfc;                 /* soft chip */
+  border: 1px solid rgba(0,0,0,.06);
+  box-shadow: 0 1px 2px rgba(14,43,56,.04);
+  white-space: nowrap;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease, background .15s ease;
+}
+
+/* Hover / focus */
+.product-modal .nav-pills .nav-link:hover,
+.product-modal .nav-pills .nav-link:focus{
+  border-color: var(--c-teal);
+  box-shadow: 0 6px 14px rgba(14,43,56,.10);
+  transform: translateY(-1px);
+  background: #eef9fb;
+}
+
+/* Active pill */
+.product-modal .nav-pills .nav-link.active{
+  color: #05343a;
+  border-color: var(--c-teal);
+  background: linear-gradient(180deg, #e9fbff, #d9f6fb);
+  box-shadow: 0 10px 22px rgba(35,141,150,.20);
+}
+
+/* Optional: give the whole pills row a subtle “tray” look */
+.product-modal .pills-tray{
+  background: linear-gradient(180deg, rgba(92,197,208,.07), rgba(92,197,208,.04));
+  border: 1px solid rgba(0,0,0,.05);
+  border-radius: 14px;
+  padding: .5rem;
+}
+
+
+/* Respect the CSS max width you set for the dialog */
+.product-modal .modal-dialog{ max-width:980px; }
+
+/* Make the “columns” layout kick in a tad later so cards don’t look cramped */
+@media (min-width: 992px){
+  .product-modal .columns{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+}

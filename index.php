@@ -770,6 +770,196 @@
   </div>
 </div>
 
+
+<!-- Ultra Fine Fly Ash Modal -->
+<div class="modal fade product-modal" id="modalUltraFineFlyAsh" tabindex="-1" aria-labelledby="modalUltraFineFlyAshLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 class="modal-title d-flex align-items-center gap-2" id="modalUltraFineFlyAshLabel">
+          <span class="badge rounded-pill">Product</span>
+          Ultra Fine Fly Ash (SUPERPOZZ™ P500) — Details
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <div class="pills-tray">
+        <!-- Tabs Navigation -->
+          <ul class="nav nav-pills mb-3" id="ufaTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="ufa-overview-tab" data-bs-toggle="pill" data-bs-target="#ufa-overview" type="button" role="tab" aria-controls="ufa-overview" aria-selected="true">Overview</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="ufa-typical-tab" data-bs-toggle="pill" data-bs-target="#ufa-typical" type="button" role="tab" aria-controls="ufa-typical" aria-selected="false">Typical Characteristics</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="ufa-water-tab" data-bs-toggle="pill" data-bs-target="#ufa-water" type="button" role="tab" aria-controls="ufa-water" aria-selected="false">Water Reduction</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="ufa-workability-tab" data-bs-toggle="pill" data-bs-target="#ufa-workability" type="button" role="tab" aria-controls="ufa-workability" aria-selected="false">Workability & Strength</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="ufa-durable-tab" data-bs-toggle="pill" data-bs-target="#ufa-durable" type="button" role="tab" aria-controls="ufa-durable" aria-selected="false">Durable Concrete</button>
+            </li>
+          </ul>
+        </div>
+        <!-- Tabs Content -->
+        <div class="tab-content">
+
+          <!-- Overview Tab -->
+          <div class="tab-pane fade show active" id="ufa-overview" role="tabpanel" aria-labelledby="ufa-overview-tab" tabindex="0">
+            <div class="lead-block mb-3">
+              <h6>What is Ultra Fine Fly Ash (SUPERPOZZ™ P500)</h6>
+              <p class="mb-0">
+                Loadplus <strong>SUPERPOZZ™ P500</strong> is an ultra-fine, high-reactivity fly ash engineered for high-performance concrete.
+                Its predominantly spherical, very fine particles enhance packing density, improve workability, reduce water demand,
+                and deliver durable, low-permeability concrete.
+              </p>
+            </div>
+
+            <div class="columns">
+              <div class="lead-block">
+                <h6>Particle Size, Shape & Distribution</h6>
+                <p class="mb-0">
+                  P500™ has a bi-modal fine particle distribution (approx. <em>0.1–30 μm</em> range; mean particle size ~<em>3.9–5.0 μm</em>),
+                  predominantly spherical. This helps fill voids between aggregates, reduces segregation, and acts as a
+                  solid-particulate plasticiser in concrete/cement mixes.
+                </p>
+              </div>
+
+              <div class="lead-block">
+                <h6>Handling & Storage</h6>
+                <ul class="bullet-list">
+                  <li><span class="bullet-dot"></span><span>In dry powder form, use an aeration system in hoppers for easy conveying.</span></li>
+                  <li><span class="bullet-dot"></span><span>Store in dry, enclosed, moisture-free areas (bagged material).</span></li>
+                  <li><span class="bullet-dot"></span><span>When stored correctly, shelf life is effectively indefinite.</span></li>
+                </ul>
+                <h6 class="mt-2">Health & Safety</h6>
+                <ul class="bullet-list">
+                  <li><span class="bullet-dot"></span><span>P500™ is highly alkaline; wear suitable PPE to avoid dust inhalation/skin contact.</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Typical Characteristics Tab -->
+          <div class="tab-pane fade" id="ufa-typical" role="tabpanel" aria-labelledby="ufa-typical-tab" tabindex="0">
+            <div class="lead-block">
+              <h6>Typical Characteristics (Indicative)</h6>
+              <div class="table-responsive">
+                <table class="table align-middle mb-0">
+                  <thead>
+                    <tr>
+                      <th style="width:60%">Property</th>
+                      <th>SUPERPOZZ™ P500</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Appearance</td><td>Pale grey ultra-fine powder</td></tr>
+                    <tr><td>Relative Density</td><td>2.12–2.30</td></tr>
+                    <tr><td>pH in Water</td><td>11–12</td></tr>
+                    <tr><td>Theoretical Surface Area</td><td>~13,000 sq.cm/kg</td></tr>
+                    <tr><td>Loss on Ignition (LOI)</td><td>&lt; 1.0%</td></tr>
+                    <tr><td>Carbon Content</td><td>&lt; 0.4%</td></tr>
+                    <tr><td>Moisture Content</td><td>&lt; 0.5%</td></tr>
+                    <tr><td>Mean Particle Size</td><td>3.9–5.0 μm</td></tr>
+                    <tr><td>Sum of Oxides (Si + Al + Fe)</td><td>~95%</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="note mt-2">Typical values; actual results may vary by source and batch.</div>
+            </div>
+          </div>
+
+          <!-- Water Reduction Tab -->
+          <div class="tab-pane fade" id="ufa-water" role="tabpanel" aria-labelledby="ufa-water-tab" tabindex="0">
+            <div class="lead-block">
+              <h6>Water Reduction (Illustrative Mix Data)</h6>
+              <p class="mb-2">Comparable mixes (equal binder & superplasticiser, target workability):</p>
+              <div class="table-responsive">
+                <table class="table mb-0">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>CONTROL</th>
+                      <th>SUPERPOZZ™ P500</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>OPC 53 Grade</td><td>400 kg/m³</td><td>360 kg/m³</td></tr>
+                    <tr><td>SUPERPOZZ™ P500</td><td>—</td><td>40 kg/m³</td></tr>
+                    <tr><td>Water Content</td><td>163 L</td><td>141 L</td></tr>
+                    <tr><td>Water Reduction</td><td>0</td><td>22 L</td></tr>
+                    <tr><td>W/b Ratio</td><td>0.41</td><td>0.35</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="note mt-2">Data reflects one lab/program example; tune for your cement, admixture, and aggregates.</div>
+            </div>
+          </div>
+
+          <!-- Workability & Strength Tab -->
+          <div class="tab-pane fade" id="ufa-workability" role="tabpanel" aria-labelledby="ufa-workability-tab" tabindex="0">
+            <div class="lead-block">
+              <h6>Workability & Strength Development</h6>
+              <p class="mb-2">
+                Replacing silica fume with SUPERPOZZ™ P500 in high-performance concrete can reduce water,
+                improve cohesiveness/pumpability, and achieve robust compressive strengths (e.g., strong 7- and 28-day results in lab trials).
+              </p>
+              <ul class="bullet-list">
+                <li><span class="bullet-dot"></span><span>Better cohesion and finish; reduced bleeding/segregation.</span></li>
+                <li><span class="bullet-dot"></span><span>Improved sulphate & chloride resistance and lower permeability.</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Durable Concrete Tab -->
+          <div class="tab-pane fade" id="ufa-durable" role="tabpanel" aria-labelledby="ufa-durable-tab" tabindex="0">
+            <div class="lead-block">
+              <h6>Durable Concrete</h6>
+              <p class="mb-2">
+                P500™ enhances density and pozzolanic reaction, reducing internal voids and bleed channels.
+                The resulting concrete shows lower permeability and better resistance to chloride ingress,
+                sulphate attack, and reinforcement corrosion. Durability/volume-stability tests are available on request.
+              </p>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <h6>Applications</h6>
+                  <ul class="bullet-list">
+                    <li><span class="bullet-dot"></span><span>High-performance & durable concrete</span></li>
+                    <li><span class="bullet-dot"></span><span>Precast components</span></li>
+                    <li><span class="bullet-dot"></span><span>Marine/industrial exposure structures</span></li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <h6>Handling & Safety (Quick View)</h6>
+                  <ul class="bullet-list">
+                    <li><span class="bullet-dot"></span><span>Aerate hoppers for conveying; store dry/enclosed.</span></li>
+                    <li><span class="bullet-dot"></span><span>Use PPE; avoid dust inhalation and skin contact.</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /tab-content -->
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <a class="btn btn-site" href="https://www.ashtechindia.net/ultra-fine-fly-ash/" target="_blank" rel="noopener">Source page</a>
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 <!-- FOOTER (Deep blue + yellow links) -->
 <footer class="py-4">
   <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
