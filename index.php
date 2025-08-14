@@ -811,9 +811,6 @@
   </div>
 </div>
 
-
-<hr class="brand-divider">
-
       <!-- Modal Body -->
       <div class="modal-body">
         <div class="pills-tray">
