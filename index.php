@@ -125,16 +125,16 @@
                 <img src="/images/hero/hero-2.jpg" class="d-block w-100" alt="Containers at port">
                 </div>
                 <div class="carousel-item">
-                <img src="/images/hero/hero-4.avif" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-4.jpg" class="d-block w-100" alt="Logistics operations">
                 </div>
                 <div class="carousel-item">
-                <img src="/images/hero/hero-6.jpg" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-6.jpeg" class="d-block w-100" alt="Logistics operations">
                 </div>
                 <div class="carousel-item">
-                <img src="/images/hero/hero-7.jpg" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-7.jpeg" class="d-block w-100" alt="Logistics operations">
                 </div>
                 <div class="carousel-item">
-                <img src="/images/hero/hero-8.jpg" class="d-block w-100" alt="Logistics operations">
+                <img src="/images/hero/hero-8.jpeg" class="d-block w-100" alt="Logistics operations">
                 </div>
             </div>
             <!-- Arrows -->
