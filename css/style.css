@@ -475,3 +475,6 @@ section[id] {
 #products .card .card-text {
   flex-grow: 1; /* Pushes the button down */
 }
+
+#modalFlyAsh .modal-body h6 { color: #3D586B; }
+#modalFlyAsh .table th, #modalFlyAsh .table td { font-size: 0.9rem; }
