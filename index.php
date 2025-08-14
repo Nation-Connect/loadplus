@@ -727,8 +727,8 @@
                 <th>BS EN 450 S</th>
                 <th>ASTM C-618 Class F</th>
                 <th>IS 3812 Part 1</th>
-                <th>Loadplus <span class="text-nowrap">SUPERPOZZ™</span></th>
-                <th>Loadplus <span class="text-nowrap">DURACRETE™</span></th>
+                <th>Loadplus <span class="text-nowrap">LP500</span></th>
+                <th>Loadplus <span class="text-nowrap">LP100</span></th>
               </tr>
             </thead>
             <tbody>
@@ -1205,6 +1205,7 @@
               <tr><td class="sticky-col">CA–500</td><td>10–500 (microns)</td></tr>
               <tr><td class="sticky-col">CA–300</td><td>10–300 (microns)</td></tr>
               <tr><td class="sticky-col">CA–150</td><td>10–300 (microns)</td></tr>
+              <tr><td class="sticky-col">CA–100</td><td>10–300 (microns)</td></tr>
             </tbody>
           </table>
         </div>
