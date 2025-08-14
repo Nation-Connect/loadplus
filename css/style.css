@@ -478,3 +478,96 @@ section[id] {
 
 #modalFlyAsh .modal-body h6 { color: #3D586B; }
 #modalFlyAsh .table th, #modalFlyAsh .table td { font-size: 0.9rem; }
+
+/* ——— Product modal polish ——— */
+.product-modal .modal-dialog { max-width: 980px; }
+.product-modal .modal-content{
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 22px 60px rgba(14,43,56,.25);
+  overflow: hidden;
+}
+
+.product-modal .modal-header{
+  position: sticky; top: 0; z-index: 2;
+  background: #fff;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.product-modal .modal-title{
+  display:flex; align-items:center; gap:.6rem;
+  font-weight: 800; color: #3D586B;
+}
+.product-modal .modal-title .badge{
+  background: #5CC5D0; color:#05343a; font-weight:700;
+}
+
+.product-modal .modal-body{
+  padding: 1.25rem;
+  background: linear-gradient(180deg, rgba(92,197,208,.05), rgba(92,197,208,.02));
+}
+
+/* lead blocks */
+.product-modal .lead-block{
+  background:#fff; border:1px solid rgba(0,0,0,.06);
+  border-radius:14px; padding:1rem 1.1rem; margin-bottom:1rem;
+  box-shadow: 0 8px 22px rgba(14,43,56,.06);
+}
+
+.product-modal h6{
+  font-weight:800; color:#3D586B; margin:.25rem 0 .5rem;
+}
+
+/* bullets with teal markers */
+.product-modal .bullet-list{ padding-left:0; margin:0; list-style:none; }
+.product-modal .bullet-list li{
+  display:flex; gap:.6rem; align-items:flex-start;
+  padding:.25rem 0;
+}
+.product-modal .bullet-dot{
+  width:.7rem; height:.7rem; border-radius:50%;
+  background:#238D96; flex:0 0 .7rem; margin-top:.45rem;
+}
+
+/* two-column info blocks on md+ */
+@media (min-width: 768px){
+  .product-modal .columns{ display:grid; grid-template-columns: 1fr 1fr; gap:1rem; }
+}
+
+/* specs table */
+.spec-table{
+  background:#fff; border:1px solid rgba(0,0,0,.06); border-radius:14px; overflow:auto;
+  box-shadow: 0 8px 22px rgba(14,43,56,.06); margin-top:1rem;
+}
+.spec-table table{ width:100%; min-width:780px; border-collapse:separate; border-spacing:0; }
+.spec-table thead th{
+  position: sticky; top: 0; z-index:1;
+  background:#f4fbfc; color:#0f3f4a; font-weight:800;
+  border-bottom:1px solid rgba(0,0,0,.06);
+}
+.spec-table th, .spec-table td{ padding:.65rem .75rem; font-size:.95rem; }
+.spec-table tbody tr:nth-child(odd){ background:#fafcfd; }
+.spec-table tbody tr:hover{ background:#f2fbfd; }
+
+/* sticky first column on lg+ */
+@media (min-width: 992px){
+  .spec-table .sticky-col{
+    position: sticky; left: 0; background: inherit; z-index: 2;
+    border-right:1px solid rgba(0,0,0,.06);
+  }
+}
+
+/* little helper notes under table */
+.product-modal .note{
+  font-size:.875rem; color:#5a7686; margin-top:.5rem;
+}
+
+/* footer link button */
+.product-modal .modal-footer{
+  border-top:1px solid rgba(0,0,0,.06);
+}
+.product-modal .btn-site{
+  background:#5CC5D0; border-color:#5CC5D0; color:#05343a; font-weight:700;
+}
+.product-modal .btn-site:hover{ background:#238D96; border-color:#238D96; color:#eafcff; }
