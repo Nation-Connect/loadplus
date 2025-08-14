@@ -483,7 +483,7 @@
             <i class="bi bi-calendar-event me-1 icon-teal"></i> Founded 2023
           </span>
           <span class="badge bg-light text-dark border">
-            <i class="bi bi-person-badge me-1 icon-yellow"></i> Led by Bhuvneshver Khobre
+            <i class="bi bi-person-badge me-1 icon-yellow"></i> Led by Bhuvneshver Khobre & Aman Karan
           </span>
           <span class="badge bg-light text-dark border">
             <i class="bi bi-building me-1 icon-pink"></i> East Delhi HQ
@@ -558,8 +558,8 @@
         <p class="mb-5">Tell us about your cargo, timelines, and any special handling. Our team will respond with a tailored plan.</p>
         <ul class="list-unstyled text-white">
           <!-- <li class="mb-2"><i class="bi bi-telephone me-2"></i> +91-00000-00000</li> -->
-          <li class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@loadplus.in" class="text-white">contact@loadplus.in</a></li>
-          <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> D-17/675, Second Floor, Gali No. 4, Ganesh Nagar II, Shakarpur, East Delhi, New Delhi – 110092, India</li>
+          <li class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@loadplus.in" class="text-white">operations@loadplus.in</a></li>
+          <li class="mb-2"><i class="bi bi-geo-alt me-2"></i> D-32, Second Floor, Laxmi Nagar, Delhi - 110092</li>
         </ul>
       </div>
 
