@@ -780,7 +780,7 @@
       <div class="modal-header">
         <h5 class="modal-title d-flex align-items-center gap-2" id="modalUltraFineFlyAshLabel">
           <span class="badge rounded-pill">Product</span>
-          Ultra Fine Fly Ash (SUPERPOZZ™ P500) — Details
+          Ultra Fine Fly Ash (P500) — Details
         </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -813,9 +813,9 @@
           <!-- Overview Tab -->
           <div class="tab-pane fade show active" id="ufa-overview" role="tabpanel" aria-labelledby="ufa-overview-tab" tabindex="0">
             <div class="lead-block mb-3">
-              <h6>What is Ultra Fine Fly Ash (SUPERPOZZ™ P500)</h6>
+              <h6>What is Ultra Fine Fly Ash (P500)</h6>
               <p class="mb-0">
-                Loadplus <strong>SUPERPOZZ™ P500</strong> is an ultra-fine, high-reactivity fly ash engineered for high-performance concrete.
+                Loadplus <strong>P500</strong> is an ultra-fine, high-reactivity fly ash engineered for high-performance concrete.
                 Its predominantly spherical, very fine particles enhance packing density, improve workability, reduce water demand,
                 and deliver durable, low-permeability concrete.
               </p>
