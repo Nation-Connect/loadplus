@@ -571,3 +571,41 @@ section[id] {
   background:#5CC5D0; border-color:#5CC5D0; color:#05343a; font-weight:700;
 }
 .product-modal .btn-site:hover{ background:#238D96; border-color:#238D96; color:#eafcff; }
+
+/* Make the Applications list use columns on md+ screens */
+.product-modal .lead-block h6 { margin-bottom: .6rem; }
+
+.product-modal .bullet-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* teal dot stays as-is */
+.product-modal .bullet-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: .6rem;
+  margin: .45rem 0;
+}
+
+.product-modal .bullet-list .bullet-dot{
+  width: .8rem; height: .8rem; border-radius: 50%;
+  background: var(--c-deepteal);
+  margin-top: .45rem;
+  flex: 0 0 .8rem;
+}
+
+/* 2 columns on wider screens to avoid the big blank area */
+@media (min-width: 768px) {
+  .product-modal .lead-block ul.bullet-list {
+    columns: 2;                 /* try 3 if you like */
+    column-gap: 2.25rem;
+  }
+  .product-modal .bullet-list li { break-inside: avoid; }
+}
+
+/* (Optional) tighten the modal header so there’s no empty space */
+.product-modal .modal-header { padding: .75rem 1rem; }
+.product-modal .modal-title { margin: 0; display: flex; align-items: center; gap: .5rem; }
+.product-modal .modal-title .badge { background: var(--c-teal); color: #05343a; font-weight: 700; }
