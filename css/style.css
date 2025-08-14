@@ -681,7 +681,6 @@ section[id] {
   display: grid;
   grid-template-columns: 280px 1fr;
   gap: 1.25rem;
-  padding: 1rem 1.1rem;
   margin: 0 0 1rem;
   border-radius: 14px;
   background:
@@ -702,9 +701,7 @@ section[id] {
 
 .product-modal .brand-media img{
   width:100%;
-  height: 350px;          /* nice, legible size */
-  object-fit: contain;    /* no cropping */
-  object-position: center;
+  height: 220px;          /* nice, legible size */
 }
 
 /* text block */
