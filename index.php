@@ -164,14 +164,14 @@
         </div>
         <div class="col-6 col-lg-3">
             <div class="p-4 stat-card text-center rounded-14">
-            <div class="stat-value h3 fw-bold mb-0">250+</div>
+            <div class="stat-value h3 fw-bold mb-0">50+</div>
             <div class="text-muted">Cities Served</div>
             </div>
         </div>
         <div class="col-6 col-lg-3">
             <div class="p-4 stat-card text-center rounded-14">
-            <div class="stat-value h3 fw-bold mb-0">5000+</div>
-            <div class="text-muted">TEU / year</div>
+            <div class="stat-value h3 fw-bold mb-0">10+</div>
+            <div class="text-muted">Branches</div>
             </div>
         </div>
         </div>
@@ -785,7 +785,7 @@
       <div class="modal-header">
         <h5 class="modal-title d-flex align-items-center gap-2" id="modalUltraFineFlyAshLabel">
           <span class="badge rounded-pill">Product</span>
-          Ultra Fine Fly Ash (P500) — Details
+          Ultra Fine Fly Ash (LP500) — Details
         </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -818,9 +818,9 @@
           <!-- Overview Tab -->
           <div class="tab-pane fade show active" id="ufa-overview" role="tabpanel" aria-labelledby="ufa-overview-tab" tabindex="0">
             <div class="lead-block mb-3">
-              <h6>What is Ultra Fine Fly Ash (P500)</h6>
+              <h6>What is Ultra Fine Fly Ash (LP500)</h6>
               <p class="mb-0">
-                Loadplus <strong>P500</strong> is an ultra-fine, high-reactivity fly ash engineered for high-performance concrete.
+                Loadplus <strong>LP500</strong> is an ultra-fine, high-reactivity fly ash engineered for high-performance concrete.
                 Its predominantly spherical, very fine particles enhance packing density, improve workability, reduce water demand,
                 and deliver durable, low-permeability concrete.
               </p>
@@ -830,7 +830,7 @@
               <div class="lead-block">
                 <h6>Particle Size, Shape & Distribution</h6>
                 <p class="mb-0">
-                  P500™ has a bi-modal fine particle distribution (approx. <em>0.1–30 μm</em> range; mean particle size ~<em>3.9–5.0 μm</em>),
+                  LP500 has a bi-modal fine particle distribution (approx. <em>0.1–30 μm</em> range; mean particle size ~<em>3.9–5.0 μm</em>),
                   predominantly spherical. This helps fill voids between aggregates, reduces segregation, and acts as a
                   solid-particulate plasticiser in concrete/cement mixes.
                 </p>
@@ -845,7 +845,7 @@
                 </ul>
                 <h6 class="mt-2">Health & Safety</h6>
                 <ul class="bullet-list">
-                  <li><span class="bullet-dot"></span><span>P500™ is highly alkaline; wear suitable PPE to avoid dust inhalation/skin contact.</span></li>
+                  <li><span class="bullet-dot"></span><span>LP500 is highly alkaline; wear suitable PPE to avoid dust inhalation/skin contact.</span></li>
                 </ul>
               </div>
             </div>
@@ -860,7 +860,7 @@
                   <thead>
                     <tr>
                       <th style="width:60%">Property</th>
-                      <th>SUPERPOZZ™ P500</th>
+                      <th>LP500</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -891,12 +891,12 @@
                     <tr>
                       <th></th>
                       <th>CONTROL</th>
-                      <th>SUPERPOZZ™ P500</th>
+                      <th>LP500</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr><td>OPC 53 Grade</td><td>400 kg/m³</td><td>360 kg/m³</td></tr>
-                    <tr><td>SUPERPOZZ™ P500</td><td>—</td><td>40 kg/m³</td></tr>
+                    <tr><td>LP500</td><td>—</td><td>40 kg/m³</td></tr>
                     <tr><td>Water Content</td><td>163 L</td><td>141 L</td></tr>
                     <tr><td>Water Reduction</td><td>0</td><td>22 L</td></tr>
                     <tr><td>W/b Ratio</td><td>0.41</td><td>0.35</td></tr>
@@ -912,7 +912,7 @@
             <div class="lead-block">
               <h6>Workability & Strength Development</h6>
               <p class="mb-2">
-                Replacing silica fume with SUPERPOZZ™ P500 in high-performance concrete can reduce water,
+                Replacing silica fume with LP500 in high-performance concrete can reduce water,
                 improve cohesiveness/pumpability, and achieve robust compressive strengths (e.g., strong 7- and 28-day results in lab trials).
               </p>
               <ul class="bullet-list">
@@ -927,7 +927,7 @@
             <div class="lead-block">
               <h6>Durable Concrete</h6>
               <p class="mb-2">
-                P500™ enhances density and pozzolanic reaction, reducing internal voids and bleed channels.
+                LP500 enhances density and pozzolanic reaction, reducing internal voids and bleed channels.
                 The resulting concrete shows lower permeability and better resistance to chloride ingress,
                 sulphate attack, and reinforcement corrosion. Durability/volume-stability tests are available on request.
               </p>
