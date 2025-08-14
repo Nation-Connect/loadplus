@@ -95,7 +95,7 @@
         <div class="row align-items-center g-5">
         <div class="col-lg-6">
             <span class="badge bg-light text-dark mb-3 fw-semibold">Warehousing • Import/Export • Transportation</span>
-            <h1 class="display-5 fw-bold">Reliable <span class="highlight">Warehousing</span> & Global Trade Logistics</h1>
+            <h1 class="display-5 fw-bold">Reliable <span class="highlight">Supply Chain</span> & Global Trade Solutions</h1>
             <p class="lead mt-3">Bonded storage, international freight, customs assistance, and last-mile delivery—streamlined under one roof.</p>
             <div class="d-flex flex-wrap gap-2 mt-3">
             <a href="#services" class="btn btn-yellow btn-lg">Explore Services</a>
